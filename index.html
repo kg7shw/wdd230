@@ -10,34 +10,64 @@
   </head>
   <body>
     <header>
-      <img src="" alt="Profile picture of Grant Call" />
-      <h1>Grant Call</h1>
-    </header>
-    <nav>
-      <div>
-        <a href="Home">Home</a>
+      <div class="top-header">
+        <img
+          class="profile-pic"
+          src="./images/340506394_781696746633266_38122340940176988_n.webp"
+          alt="Profile picture of Grant Call"
+        />
+        <h1>Grant Call</h1>
       </div>
-      <div>
+
+      <nav>
+        <a class="active" href="./index.html">Home</a>
         <a href="Chamber">Chamber</a>
-      </div>
-      <div>
         <a href="Site Plan">Site Plan</a>
-      </div>
-      <div>
         <a href="Survey">Survey</a>
-      </div>
-    </nav>
-    <main>
+      </nav>
+    </header>
+
+    <main class="s-home">
       <h2>WDD 230: Web Frontend Development</h2>
+      <section class="card">
+        <h3>Learning Activities</h3>
+        <ul class="list">
+          <li class="item">
+            <span class="sub_text">Week 1:</span>
+            <a class="sub_link" href="#">Layout</a>
+            <span class="divider">|</span>
+            <a class="sub_link" href="#">Media Query</a>
+            <span class="divider">|</span>
+            <a class="sub_link" href="#">JS Pen</a>
+          </li>
+          <li><span class="sub_text">Week 2:</span><a href="#"></a></li>
+          <li><span class="sub_text">Week 3:</span><a href="#"></a></li>
+          <li><span class="sub_text">Week 4:</span><a href="#"></a></li>
+          <li><span class="sub_text">Week 5:</span><a href="#"></a></li>
+          <li><span class="sub_text">Week 6:</span><a href="#"></a></li>
+          <li><span class="sub_text">Week 7:</span><a href="#"></a></li>
+        </ul>
+      </section>
       <section class="card">
         <h3>Information:</h3>
         <h3>Weather</h3>
         <h3>number of visits to the page</h3>
+        <div class="counter">
+          <span>0</span>
+          <span>0</span>
+          <span>0</span>
+          <span>0</span>
+          <span>0</span>
+          <span>0</span>
+        </div>
+        <div class="message">Unique Visits to this Page</div>
       </section>
     </main>
     <footer>
-      <p>©2023 - Grant Call - USA</p>
-      <p class="lastModified"></p>
+      <p class="copywrite">
+        &copy<span id="year">2023</span> - Grant Call - USA
+      </p>
+      <p id="lastModified"></p>
     </footer>
   </body>
 </html>

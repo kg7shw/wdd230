@@ -1,0 +1,29 @@
+.profile-pic {
+  width: 7.5rem;
+  height: 10rem;
+}
+
+header {
+  .top-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1d4d72;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+
+    a {
+      display: block;
+    }
+  }
+}
+
+.active {
+  background-color: #643219;
+}
