@@ -1,17 +1,27 @@
-.profile-pic {
-  width: 7.5rem;
-  height: 10rem;
-}
-
-header {
+.header {
   .top-header {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    background-color: #1d4d72;
+    justify-content: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      0deg,
+      rgba(2, 0, 36, 1) 8%,
+      rgba(10, 122, 144, 1) 68%
+    );
+    padding: 3rem 2rem;
+
+    .profile-pic {
+      border-radius: 0.8rem;
+    }
+
+    .profile_name {
+      padding-left: 2.4rem;
+      color: #d1d1d1;
+    }
   }
 
-  nav {
+  .nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,10 +30,90 @@ header {
 
     a {
       display: block;
+      width: 100%;
+      text-align: center;
+      padding: 1rem;
+      color: #d1d1d1;
+      text-decoration: none;
+
+      &.active {
+        background-color: #643219;
+        font-weight: 700;
+      }
     }
   }
 }
 
-.active {
-  background-color: #643219;
+.s-home {
+  display: grid;
+  grid-row-gap: 2.4rem;
+  padding: 0 2.4rem;
+  padding-bottom: 2.4rem;
+
+  .heading {
+    margin: 0;
+    padding-top: 2.4rem;
+  }
+
+  .card {
+    border: 0.1rem solid #000000;
+
+    .contents {
+      padding: 1.6rem;
+    }
+
+    .card-heading {
+      background-color: #066c80;
+      text-align: center;
+      color: white;
+      padding: 1.6rem;
+      margin: 0;
+    }
+
+    &.activities {
+      .list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        .item {
+          &:not(:last-child) {
+            margin-bottom: 1.6rem;
+          }
+        }
+      }
+    }
+
+    &.info {
+      text-align: center;
+
+      .text {
+        margin: 0.8rem 0;
+      }
+      .weather {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 0.8rem;
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: #000000;
+  padding: 3.2rem;
+
+  .text {
+    color: #d1d1d1;
+    margin: 0;
+    font-weight: 600;
+    text-align: center;
+
+    &.date {
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin-top: 0.6rem;
+    }
+  }
 }
