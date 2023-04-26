@@ -3,11 +3,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(2, 0, 36);
+    background: rgb(9, 59, 79);
     background: linear-gradient(
       0deg,
-      rgba(2, 0, 36, 1) 8%,
-      rgba(10, 122, 144, 1) 68%
+      rgba(9, 59, 79, 1) 10%,
+      rgba(9, 91, 121, 1) 56%
     );
     padding: 3rem 2rem;
 
@@ -22,23 +22,29 @@
   }
 
   .nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000;
+    background-color: rgb(15, 15, 15);
 
-    a {
+    .contents {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .link {
       display: block;
       width: 100%;
       text-align: center;
       padding: 1rem;
       color: #d1d1d1;
       text-decoration: none;
+      font-weight: 700;
 
-      &.active {
-        background-color: #643219;
-        font-weight: 700;
+      &.active,
+      &:hover {
+        color: rgba(36, 147, 187, 1);
+        text-shadow: 0px 0px 3rem #d1d1d1;
+        transition: color 300ms;
       }
     }
   }
@@ -56,14 +62,19 @@
   }
 
   .card {
-    border: 0.1rem solid #000000;
+    border: 0.2rem solid rgb(15, 15, 15);
 
     .contents {
       padding: 1.6rem;
     }
 
     .card-heading {
-      background-color: #066c80;
+      background: rgb(11, 77, 103);
+      background: linear-gradient(
+        0deg,
+        rgba(11, 77, 103, 1) 10%,
+        rgba(9, 91, 121, 1) 56%
+      );
       text-align: center;
       color: white;
       padding: 1.6rem;
@@ -101,7 +112,7 @@
 }
 
 .footer {
-  background-color: #000000;
+  background-color: rgb(15, 15, 15);
   padding: 3.2rem;
 
   .text {
