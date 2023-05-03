@@ -1,43 +1,91 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root {
   /* CSS HEX */
-  --old-gold: #dbc164ff;
-  --wenge: #645754ff;
-  --air-superiority-blue: #7599b6ff;
-  --antiflash-white: #f1f1f2ff;
-  --indigo-dye: #144670ff;
+  --caribbean-current: #036b6eff;
+  --selective-yellow: #fbbb2bff;
+  --dark-green: #002a2bff;
+  --azure-web: #d5e3e4ff;
+
+  /* CSS HEX */
+  --primary-color: #036b6e;
+  --accent-color-1: #fbbb2b;
+  --accent-color-2: #002a2b;
+  --accent-color-3: #d5e3e4;
+  --accent-color-4: #fff;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  background-color: whitesmoke;
 }
-
+/* 
 .primary_color {
-  color: var(--indigo-dye);
-}
-
-.secondary_color {
-  color: var(--air-superiority-blue);
+  color: var(--primary-color);
 }
 
 .accent_color_1 {
-  color: var(--old-gold);
+  color: var(--accent-color-1);
 }
 
 .accent_color_2 {
-  color: var(--wenge);
+  color: var(--accent-color-2);
 }
 
 .accent_color_3 {
-  color: var(--antiflash-white);
+  color: var(--accent-color-3);
 }
 
-/* color palette */
-/* 
-#003366
-#a8cde8
-#dbc164
-#2b2b2b
-#6f8ca9 
-*/
+.accent_color_4 {
+  color: var(--accent-color-4);
+} */
+.color_boxes {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.color_palette {
+  list-style: none;
+  padding: 0.25rem 0 1rem;
+  width: 75%;
+}
+
+.primary_color_box {
+  background-color: var(--primary-color);
+  list-style: none;
+  padding: 1rem 0;
+  width: 75%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.accent_color_1_box {
+  background-color: var(--accent-color-1);
+  list-style: none;
+  padding: 1rem 0;
+  width: 75%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.accent_color_2_box {
+  background-color: var(--accent-color-2);
+  list-style: none;
+  padding: 1rem 0;
+  width: 75%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.accent_color_3_box {
+  background-color: var(--accent-color-3);
+  list-style: none;
+  padding: 1rem 0;
+  width: 75%;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.list_p {
+  text-align: center;
+}
