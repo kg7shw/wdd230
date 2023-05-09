@@ -11,6 +11,15 @@
   .header .top-header .profile_name {
     padding-left: 2.4rem;
     color: #d1d1d1; }
+  .header .top-header #menu {
+    font-size: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 0.25rem 0.75rem;
+    background-color: #eee;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem; }
 
 .header .nav {
   background-color: #0f0f0f; }
