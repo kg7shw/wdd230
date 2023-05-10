@@ -128,9 +128,7 @@
     margin: auto; }
     .header .nav .contents .link {
       padding: 1.6rem; }
-  .header .nav .menu .ham-menu {
-    display: none; }
-  .header .nav .menu .x-menu {
+  .header .nav .menu {
     display: none; }
   .s-home {
     grid-template-columns: 2fr 1fr;
