@@ -19,17 +19,6 @@
       padding-left: 2.4rem;
       color: #d1d1d1;
     }
-
-    #menu {
-      font-size: 1.5rem;
-      border: 1px solid rgba(0, 0, 0, 0.3);
-      padding: 0.25rem 0.75rem;
-      background-color: #eee;
-      color: #000;
-      position: absolute;
-      top: 1rem;
-      right: 1rem;
-    }
   }
 
   .nav {
@@ -40,6 +29,14 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
+
+    .menu {
+      .ham-menu {
+      }
+
+      .x-menu {
+      }
     }
 
     .link {
