@@ -15,7 +15,10 @@
       content="https://s3.us-west-2.amazonaws.com/assets.eastidahonews.com/wp-content/uploads/2022/10/Rexburg.jpg"
     />
     <title>Grant Call - WDD 230 - Web Frontend Development</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
     <link rel="icon" href="./images/favicon.ico" />
     <link rel="stylesheet" href="./styles/main.css" />
     <script src="./scripts/getDates.js" defer></script>
@@ -35,23 +38,23 @@
       </div>
 
       <nav class="nav">
+        <button id="menu-toggle" class="menu">
+          <img
+            class="ham-menu icon active"
+            src="./images/hamburger.svg"
+            alt="Hamburger Menu icon"
+            width="40"
+            height="40"
+          />
+          <img
+            class="x-menu icon"
+            src="./images/close.svg"
+            alt="X symbol to close the hamburger menu"
+            width="40"
+            height="40"
+          />
+        </button>
         <div class="contents">
-          <button class="menu">
-            <img
-              class="ham-menu active"
-              src="./images/hamburger.svg"
-              alt="Hamburger Menu icon"
-              width="40"
-              height="40"
-            />
-            <img
-              class="x-menu"
-              src="./images/close.svg"
-              alt="X symbol to close the hamburger menu"
-              width="40"
-              height="40"
-            />
-          </button>
           <a class="link active" href="./index.html">Home</a>
           <a class="link" href="#">Chamber</a>
           <a class="link" href="./lesson1/chamber-site-plan.html">Site Plan</a>
@@ -62,6 +65,18 @@
 
     <main class="s-home">
       <h2 class="heading">WDD 230: Web Frontend Development</h2>
+      <div>
+        <img
+          src="./images/dark-theme-toggle.svg"
+          alt="Night Theme Button Icon"
+          class="night-theme-icon"
+        />
+        <img
+          src="./images/light-theme-toggle.svg"
+          alt="Light Theme button Icon"
+          class="light-theme-icon"
+        />
+      </div>
       <section class="card activities">
         <h3 class="card-heading">Learning Activities</h3>
         <div class="contents">

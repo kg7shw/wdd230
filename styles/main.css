@@ -15,13 +15,19 @@
 .header .nav {
   background-color: #0f0f0f; }
   .header .nav .contents {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+    .header .nav .contents.active {
+      display: flex; }
   .header .nav .menu {
     background: none;
     border: none; }
+    .header .nav .menu .icon {
+      display: none; }
+      .header .nav .menu .icon.active {
+        display: unset; }
     .header .nav .menu .x-menu {
       display: none; }
   .header .nav .link {

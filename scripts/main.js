@@ -6,10 +6,13 @@
 //   hamButton.classList.toggle("open");
 // });
 
-const hamMenuButton = document.querySelector("#ham-menu");
-const nav = document.querySelector(".nav");
+const hamMenuButton = document.querySelector("#menu-toggle");
+const navContents = document.querySelector(".nav > .contents");
 
 hamMenuButton.addEventListener("click", () => {
-  nav.classList.toggle("open");
-  hamMenuButton.classList.toggle("open");
+  hamMenuButton.classList.toggle("active");
+  navContents.classList.toggle("active");
+  hamMenuButton.querySelectorAll(".icon").forEach((item) => {
+    item.classList.toggle("active");
+  });
 });

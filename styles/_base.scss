@@ -25,16 +25,25 @@
     background-color: rgb(15, 15, 15);
 
     .contents {
-      display: flex;
+      display: none;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
+      &.active {
+        display: flex;
+      }
     }
 
     .menu {
       background: none;
       border: none;
-      .ham-menu {
+
+      .icon {
+        display: none;
+        &.active {
+          display: unset;
+        }
       }
 
       .x-menu {
