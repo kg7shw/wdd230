@@ -1,18 +1,20 @@
-// const hamButton = document.querySelector("#menu");
-// const navigation = document.querySelector(".navigation");
-
-// hamButton.addEventListener("click", () => {
-//   navigation.classList.toggle("open");
-//   hamButton.classList.toggle("open");
-// });
+// Hamburger menu Button
 
 const hamMenuButton = document.querySelector("#menu-toggle");
 const navContents = document.querySelector(".nav > .contents");
 
 hamMenuButton.addEventListener("click", () => {
-  hamMenuButton.classList.toggle("active");
   navContents.classList.toggle("active");
   hamMenuButton.querySelectorAll(".icon").forEach((item) => {
+    item.classList.toggle("active");
+  });
+});
+
+// Theme button
+const themeBtn = document.querySelector("#theme-toggle");
+themeBtn.addEventListener("click", () => {
+  document.querySelector("main").classList.toggle("dark-theme");
+  themeBtn.querySelectorAll(".icon").forEach((item) => {
     item.classList.toggle("active");
   });
 });

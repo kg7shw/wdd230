@@ -36,18 +36,16 @@
     }
 
     .menu {
+      display: block;
       background: none;
       border: none;
+      margin-left: auto;
 
       .icon {
         display: none;
         &.active {
           display: unset;
         }
-      }
-
-      .x-menu {
-        display: none;
       }
     }
 
@@ -74,6 +72,61 @@
   grid-row-gap: 2.4rem;
   padding: 0 2.4rem;
   padding-bottom: 2.4rem;
+
+  .top-ribbon {
+    display: flex;
+  }
+
+  .theme-toggle {
+    background: none;
+    border: none;
+
+    .icon {
+      display: none;
+      &.active {
+        display: unset;
+      }
+    }
+  }
+
+  &.dark-theme {
+    background-color: rgba(0, 0, 0, 1);
+    color: #f9f9f9;
+    .card {
+      border: 0.2rem solid rgb(15, 15, 15);
+
+      .contents {
+        padding: 1.6rem;
+      }
+
+      .card-heading {
+        background: rgb(11, 77, 103);
+        background: linear-gradient(
+          0deg,
+          rgba(11, 77, 103, 1) 10%,
+          rgba(9, 91, 121, 1) 56%
+        );
+        text-align: center;
+        color: white;
+        padding: 1.6rem;
+        margin: 0;
+      }
+
+      &.activities {
+        .list {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+
+          .item {
+            .sub_link {
+              color: rgb(60, 203, 243);
+            }
+          }
+        }
+      }
+    }
+  }
 
   .heading {
     margin: 0;
