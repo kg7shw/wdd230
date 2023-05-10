@@ -32,10 +32,13 @@
     }
 
     .menu {
+      background: none;
+      border: none;
       .ham-menu {
       }
 
       .x-menu {
+        display: none;
       }
     }
 
