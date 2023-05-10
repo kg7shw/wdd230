@@ -123,6 +123,7 @@
 
 @media screen and (min-width: 744px) {
   .header .nav .contents {
+    display: flex;
     flex-direction: row;
     max-width: 100rem;
     margin: auto; }

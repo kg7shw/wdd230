@@ -2,6 +2,7 @@
   .header {
     .nav {
       .contents {
+        display: flex;
         flex-direction: row;
         max-width: 100rem;
         margin: auto;
