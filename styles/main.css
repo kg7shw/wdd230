@@ -1,4 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body.dark-theme {
+  background-color: #181818;
+  color: #f9f9f9; }
+  body.dark-theme .card {
+    border: 0.2rem solid #0b4d67; }
+    body.dark-theme .card .contents {
+      padding: 1.6rem; }
+    body.dark-theme .card .card-heading {
+      background: #0b4d67;
+      background: linear-gradient(0deg, #0b4d67 10%, #095b79 56%);
+      text-align: center;
+      color: white;
+      padding: 1.6rem;
+      margin: 0; }
+    body.dark-theme .card.activities .list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      body.dark-theme .card.activities .list .item .sub_link {
+        color: #3ccbf3; }
+
 .header .top-header {
   display: flex;
   align-items: center;
@@ -59,26 +80,6 @@
       display: none; }
       .s-home .theme-toggle .icon.active {
         display: unset; }
-  .s-home.dark-theme {
-    background-color: black;
-    color: #f9f9f9; }
-    .s-home.dark-theme .card {
-      border: 0.2rem solid #0f0f0f; }
-      .s-home.dark-theme .card .contents {
-        padding: 1.6rem; }
-      .s-home.dark-theme .card .card-heading {
-        background: #0b4d67;
-        background: linear-gradient(0deg, #0b4d67 10%, #095b79 56%);
-        text-align: center;
-        color: white;
-        padding: 1.6rem;
-        margin: 0; }
-      .s-home.dark-theme .card.activities .list {
-        list-style-type: none;
-        margin: 0;
-        padding: 0; }
-        .s-home.dark-theme .card.activities .list .item .sub_link {
-          color: #3ccbf3; }
   .s-home .heading {
     margin: 0; }
   .s-home .card {
