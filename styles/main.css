@@ -48,7 +48,10 @@
   padding: 0 2.4rem;
   padding-bottom: 2.4rem; }
   .s-home .top-ribbon {
-    display: flex; }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.4rem; }
   .s-home .theme-toggle {
     background: none;
     border: none; }
@@ -77,8 +80,7 @@
         .s-home.dark-theme .card.activities .list .item .sub_link {
           color: #3ccbf3; }
   .s-home .heading {
-    margin: 0;
-    padding-top: 2.4rem; }
+    margin: 0; }
   .s-home .card {
     border: 0.2rem solid #0f0f0f; }
     .s-home .card .contents {
