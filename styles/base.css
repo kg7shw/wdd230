@@ -1,0 +1,9 @@
+.profile-pic {
+  width: 7.5rem;
+  height: 10rem;
+}
+header > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
