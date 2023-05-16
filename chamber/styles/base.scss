@@ -1,1 +1,69 @@
+:root {
+  /* CSS HEX */
+  --caribbean-current: #036b6eff;
+  --selective-yellow: #fcd20f;
+  --dark-green: #002a2bff;
+  --azure-web: #d5e3e4ff;
 
+  /* CSS HEX */
+  --primary-color: #036b6e;
+  --accent-color-1: #fcd20f;
+  --accent-color-2: #002a2b;
+  --accent-color-3: #d5e3e4;
+  --accent-color-4: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(2, 83, 85);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 83, 85, 1) 19%,
+    rgba(0, 101, 107, 1) 85%
+  );
+
+  .nav {
+    .contents {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &.active {
+        display: flex;
+      }
+    }
+
+    .menu {
+      display: block;
+      background: none;
+      border: none;
+      margin-left: auto;
+
+      .icon {
+        display: none;
+        &.active {
+          display: unset;
+        }
+      }
+    }
+
+    .link {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 1rem;
+      color: #d1d1d1;
+      text-decoration: none;
+      font-weight: 700;
+
+      &.active,
+      &:hover {
+        color: #d1d1d1;
+        transition: color 300ms;
+      }
+    }
+  }
+}
