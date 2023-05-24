@@ -17,12 +17,25 @@
   justify-content: space-between;
   align-items: center;
   background: #025355;
-  background: linear-gradient(0deg, #025355 19%, #00656b 85%); }
+  background: linear-gradient(0deg, #025355 19%, #00656b 85%);
+  padding: 1rem 1rem; }
+  .header .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
   .header .nav .contents {
     display: none;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    align-items: flex-start;
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    top: 7rem;
+    background: #025355;
+    background: linear-gradient(0deg, #025355 19%, #00656b 85%);
+    width: 100vw;
+    padding: 0;
+    margin: 0; }
     .header .nav .contents.active {
       display: flex; }
   .header .nav .menu {
@@ -41,10 +54,26 @@
     padding: 1rem;
     color: #d1d1d1;
     text-decoration: none;
-    font-weight: 700; }
+    font-weight: 700;
+    font-size: 2.1rem; }
     .header .nav .link.active, .header .nav .link:hover {
       color: #d1d1d1;
       transition: color 300ms; }
+
+.main .hero-section {
+  background-image: url(../images/camille-minouflet-d7M5Xramf8g-unsplash.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem; }
+  .main .hero-section .heading {
+    margin: 0;
+    padding: 0; }
+
+.main .weather-card {
+  width: 100vw;
+  background-color: rgba(2, 83, 85, 0.2);
+  padding: 2rem; }
 
 html {
   font-size: 62.5%;
