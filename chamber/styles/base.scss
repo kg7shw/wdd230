@@ -102,9 +102,15 @@
     }
   }
   .weather-card {
+    display: flex;
+    justify-content: center;
     width: 100vw;
     background-color: rgba(2, 83, 85, 0.2);
-    padding: 2rem;
+    padding: 1.6rem 2.4rem;
+
+    .element {
+      margin: 0.75rem;
+    }
   }
 
   .events-section {
