@@ -75,6 +75,29 @@
   background-color: rgba(2, 83, 85, 0.2);
   padding: 2rem; }
 
+.main .events-section .events-cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem; }
+  .main .events-section .events-cards .events {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem; }
+    .main .events-section .events-cards .events .left {
+      grid-column: 1/2; }
+    .main .events-section .events-cards .events .center {
+      grid-column: 2/3; }
+    .main .events-section .events-cards .events .right {
+      grid-column: 3/4; }
+
+.main .events-section .btn-container {
+  display: flex;
+  justify-content: center; }
+  .main .events-section .btn-container .event-load-btn {
+    background-color: #036b6e;
+    color: white; }
+
 html {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;

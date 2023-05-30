@@ -106,4 +106,38 @@
     background-color: rgba(2, 83, 85, 0.2);
     padding: 2rem;
   }
+
+  .events-section {
+    .events-cards {
+      display: flex;
+      justify-content: space-around;
+      padding: 1rem;
+
+      .events {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+
+        .left {
+          grid-column: 1/2;
+        }
+        .center {
+          grid-column: 2/3;
+        }
+        .right {
+          grid-column: 3/4;
+        }
+      }
+    }
+    .btn-container {
+      display: flex;
+      justify-content: center;
+
+      .event-load-btn {
+        background-color: #036b6e;
+        color: white;
+      }
+    }
+  }
 }
