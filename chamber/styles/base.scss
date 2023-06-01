@@ -3,13 +3,13 @@
   --caribbean-current: #036b6eff;
   --selective-yellow: #fcd20f;
   --dark-green: #002a2bff;
-  --azure-web: #d5e3e4ff;
+  --azure-web: #fffff;
 
   /* CSS HEX */
-  --primary-color: #036b6e;
+  --primary-color: #036164;
   --accent-color-1: #fcd20f;
   --accent-color-2: #002a2b;
-  --accent-color-3: #d5e3e4;
+  --accent-color-3: #fff;
   --accent-color-4: #fff;
 }
 
@@ -29,6 +29,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .nav-cta {
+    display: none;
   }
 
   .nav {
@@ -74,14 +78,14 @@
       width: 100%;
       text-align: center;
       padding: 1rem;
-      color: #d1d1d1;
+      color: #fff;
       text-decoration: none;
       font-weight: 700;
       font-size: 2.1rem;
 
       &.active,
       &:hover {
-        color: #d1d1d1;
+        color: #fff;
         transition: color 300ms;
       }
     }
@@ -90,49 +94,79 @@
 
 .main {
   .hero-section {
-    background-image: url(../images/camille-minouflet-d7M5Xramf8g-unsplash.webp);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+      url(../images/karlo-king-WRBEzYe6TIU-unsplash.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 5rem;
+    padding: 5rem 0;
 
-    .heading {
-      margin: 0;
-      padding: 0;
+    .hero-container {
+      padding: 3rem;
+      .heading {
+        color: #fff;
+        margin: 0;
+        padding: 1rem 0 1.5rem 0;
+        font-size: 4.8rem;
+      }
+
+      .hero-cta {
+        background-color: var(--primary-color);
+        color: #fff;
+        padding: 0.75rem;
+        border: none;
+        border-radius: 3px;
+        font-size: 2.4rem;
+        font-weight: 500;
+      }
     }
   }
   .weather-card {
     display: flex;
     justify-content: center;
     width: 100vw;
-    background-color: rgba(2, 83, 85, 0.2);
+    background-color: var(--primary-color);
     padding: 1.6rem 2.4rem;
+    color: #fff;
 
     .element {
       margin: 0.75rem;
     }
   }
 
-  .events-section {
-    .events-cards {
-      display: flex;
-      justify-content: space-around;
-      padding: 1rem;
+  .barangays-section {
+    padding: 5rem 2.4rem;
+    .barangays-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 4.8rem;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      max-width: 50rem;
+      margin: auto;
 
+      .text {
+        padding: 0.5rem 0 0 0;
+        margin: 0;
+      }
+    }
+  }
+
+  .events-section {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: #fff;
+    .events-cards {
       .events {
         display: flex;
         justify-content: center;
         text-align: center;
         padding: 1rem;
 
-        .left {
-          grid-column: 1/2;
-        }
-        .center {
-          grid-column: 2/3;
-        }
-        .right {
-          grid-column: 3/4;
+        .event-img {
+          width: 100%;
+          height: auto;
         }
       }
     }
@@ -141,9 +175,42 @@
       justify-content: center;
 
       .event-load-btn {
-        background-color: #036b6e;
-        color: white;
+        padding: 0.3rem;
+        border: none;
+        border-radius: 3px;
       }
+    }
+  }
+
+  .ads-section {
+    padding: 3rem 0;
+    .ads-card {
+      padding: 1rem 4rem;
+
+      .description {
+        font-weight: 700;
+      }
+      .ad-name {
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 3.2rem;
+
+  .text {
+    color: #fff;
+    margin: 0;
+    font-weight: 600;
+    text-align: center;
+
+    &.date {
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin-top: 0.6rem;
     }
   }
 }

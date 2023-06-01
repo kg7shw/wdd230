@@ -21,7 +21,7 @@
     <script src="./scripts/getDates.js" defer></script>
     <script src="./scripts/main.js" defer></script>
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <img
         class="logo"
@@ -32,8 +32,14 @@
       />
 
       <div class="right">
-        <button class="cta">Join Now</button>
         <nav class="nav">
+          <ul class="contents">
+            <li><a class="link active" href="index.html">Home</a></li>
+            <li><a class="link" href="#">Discover</a></li>
+            <li><a class="link" href="#">Directory</a></li>
+            <li><a class="link" href="#">Join</a></li>
+            <li><a class="link" href="chamber-site-plan.html">Site Plan</a></li>
+          </ul>
           <button id="menu-toggle" class="menu">
             <img
               class="ham-menu icon active"
@@ -50,40 +56,83 @@
               height="40"
             />
           </button>
-          <ul class="contents">
-            <li><a class="link active" href="index.html">Home</a></li>
-            <li><a class="link" href="#">Discover</a></li>
-            <li><a class="link" href="#">Directory</a></li>
-            <li><a class="link" href="#">Join</a></li>
-            <li><a class="link" href="chamber-site-plan.html">Site Plan</a></li>
-          </ul>
         </nav>
       </div>
+      <!-- <div class="nav-cta-container">
+        <button class="cta nav-cta">Join Now</button>
+      </div> -->
     </header>
 
     <main class="main">
       <section class="hero-section">
-        <h1 class="heading">Welcome to the Dagupan Chamber of Commerce</h1>
-        <button class="cta">Join Now</button>
+        <div class="hero-container">
+          <h1 class="heading">
+            Welcome to the<br />Dagupan Area<br />
+            Chamber of Commerce
+          </h1>
+          <button class="hero-cta">Join Now</button>
+        </div>
       </section>
       <section class="weather">
         <article class="weather-card">
-          <img
-            class="weather-icon element"
-            src="./images/icons8-rain-cloud.gif"
-            alt="Rain cloud icon"
-          />
           <p class="temperature element">72°F</p>
           <p class="condition element">Partly Cloudy</p>
         </article>
       </section>
+
+      <section class="barangays-section">
+        <ul class="barangays-list">
+          <div class="card-container">
+            <li class="barangay-card">
+              <img
+                src="./images/gueset_icon.webp"
+                alt="Bonuan Gueset"
+                class="b-img"
+                width="50"
+                height="50"
+              />
+
+              <p class="text">Bonuan Gueset</p>
+            </li>
+          </div>
+
+          <div class="card-container">
+            <li class="barangay-card">
+              <img
+                src="./images/boquig.webp"
+                alt="Bonuan Boquig"
+                class="b-img"
+                width="50"
+                height="50"
+              />
+
+              <p class="text">Bonuan Boquig</p>
+            </li>
+          </div>
+
+          <div class="card-container">
+            <li class="barangay-card">
+              <img
+                src="./images/binloc.webp"
+                alt="Bonuan Binloc"
+                class="b-img"
+                width="50"
+                height="50"
+              />
+
+              <p class="text">Bonuan Binloc</p>
+            </li>
+          </div>
+        </ul>
+      </section>
+
       <section class="events-section">
         <article class="events-cards">
           <div class="events left">
             <picture>
               <img
                 src="https://picsum.photos/350/250"
-                alt=""
+                alt="Placeholder image"
                 class="event-img"
                 loading="lazy"
               />
@@ -93,8 +142,8 @@
           <div class="events center">
             <picture>
               <img
-                src="https://picsum.photos/350/250"
-                alt=""
+                src="https://picsum.photos/350/250//"
+                alt="Placeholder image"
                 class="event-img"
                 loading="lazy"
               />
@@ -104,8 +153,8 @@
           <div class="events right">
             <picture>
               <img
-                src="https://picsum.photos/350/250"
-                alt=""
+                src="https://picsum.photos/350/250/"
+                alt="Placeholder image"
                 class="event-img"
                 loading="lazy"
               />
@@ -118,8 +167,40 @@
         </div>
       </section>
 
-      <section class="ads">
-        <article class="ads-card">I am a card</article>
+      <section class="ads-section">
+        <article class="ads-card">
+          <div class="ads ads-right">
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus nulla totam nesciunt minus aspernatur soluta, nobis
+              vero beatae laboriosam iste quasi eum ipsa libero enim sapiente!
+              Unde autem dicta quisquam.
+            </p>
+            <p class="ad-name">Lorem ipsum dolor</p>
+            <img
+              src="https://picsum.photos/25/25"
+              alt="Placeholder image"
+              class="ad-img"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="ads ads-left">
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus nulla totam nesciunt minus aspernatur soluta, nobis
+              vero beatae laboriosam iste quasi eum ipsa libero enim sapiente!
+              Unde autem dicta quisquam.
+            </p>
+            <p class="ad-name">Lorem ipsum dolor</p>
+            <img
+              src="https://picsum.photos/25/25"
+              alt="Placeholder image"
+              class="ad-img"
+              loading="lazy"
+            />
+          </div>
+        </article>
       </section>
     </main>
 
