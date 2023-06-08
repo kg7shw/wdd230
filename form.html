@@ -59,10 +59,11 @@
     <main>
       <div class="form-container">
         <form action="record.html">
-          <h1>Register</h1>
+          <h1 class="form-title">Register</h1>
           <div class="username-container form-field-container">
             <label class="labels" for="username">Username: </label>
             <input
+              class="inputs"
               type="text"
               name="firstName"
               id="firstName"
@@ -73,6 +74,7 @@
           <div class="password-container form-field-container">
             <label class="labels" for="password">Password: </label>
             <input
+              class="inputs"
               type="password"
               name="password"
               id="password"
@@ -86,6 +88,7 @@
             <label class="labels" for="password2">Confirm Password: </label>
             <div id="formmessage"></div>
             <input
+              class="inputs"
               type="password"
               name="password2"
               id="password2"
@@ -99,6 +102,7 @@
           <div class="email-container form-field-container">
             <label class="labels" for="email">Email: </label>
             <input
+              class="inputs"
               type="text"
               name="email"
               id="email"
@@ -109,10 +113,13 @@
             />
           </div>
 
-          <div class="pageRating-container">
-            <div id="rangevalue">0</div>
-            <label class="labels" for="pageRating">Page Rating: </label>
+          <div class="pageRating-container form-field-container">
+            <label class="pageRating-inputs" for="pageRating"
+              >Page Rating:
+            </label>
+            <span id="rangevalue">0</span><br />
             <input
+              class="pageRating-inputs"
               type="range"
               id="pageRating"
               name="pageRating"
@@ -137,7 +144,7 @@
             </datalist>
           </div>
           <div class="btn-container">
-            <button type="submit">Submit</button>
+            <button class="form-submit-btn" type="submit">Submit</button>
           </div>
         </form>
       </div>

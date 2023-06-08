@@ -4,12 +4,32 @@
   padding: 1rem 1rem 2rem 1rem;
 }
 
+.form-title {
+  text-align: center;
+  padding: 1rem 0 0 0;
+  margin: 0;
+}
+
 .form-field-container {
-  display: flex;
+  padding: 1rem;
+}
+
+.labels {
+  display: block;
+  margin: 1rem 0;
+}
+
+.inputs {
+  width: 300px;
+  padding: 1rem;
+}
+
+.pageRating-inputs {
+  width: 300px;
 }
 
 #pageRating {
-  width: 180px;
+  width: 300px;
   margin-bottom: 0;
 }
 
@@ -20,10 +40,22 @@
 
 #rangevalues {
   display: flex;
-  margin: 0 0 0 95px;
-  width: 185px;
+  margin: 0 0 0 0;
+  width: 320px;
 }
 
 #rangevalues option {
   flex: 1 1 auto;
+}
+
+.btn-container {
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.form-submit-btn {
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
 }
