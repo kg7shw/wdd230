@@ -1,0 +1,29 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.form-field-container {
+  display: flex;
+}
+
+#pageRating {
+  width: 180px;
+  margin-bottom: 0;
+}
+
+#rangevalue {
+  font-size: 2rem;
+  color: navy;
+}
+
+#rangevalues {
+  display: flex;
+  margin: 0 0 0 95px;
+  width: 185px;
+}
+
+#rangevalues option {
+  flex: 1 1 auto;
+}

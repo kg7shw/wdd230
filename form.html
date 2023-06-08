@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/form.css" />
+    <script src="./scripts/getDates.js" defer></script>
+    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/passwordCheck.js" defer></script>
+    <script src="./scripts/range.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-header">
+        <img
+          class="profile-pic"
+          src="./images/340506394_781696746633266_38122340940176988_n.webp"
+          alt="Profile picture of Grant Call"
+          width="100"
+          height="150"
+        />
+        <h1 class="profile_name">Grant Call</h1>
+      </div>
+
+      <nav class="nav">
+        <button id="menu-toggle" class="menu">
+          <img
+            class="ham-menu icon active"
+            src="./images/hamburger.svg"
+            alt="Hamburger Menu icon"
+            width="40"
+            height="40"
+          />
+          <img
+            class="x-menu icon"
+            src="./images/close.svg"
+            alt="X symbol to close the hamburger menu"
+            width="40"
+            height="40"
+          />
+        </button>
+        <div class="contents">
+          <a class="link active" href="./index.html">Home</a>
+          <a class="link" href="./chamber/index.html">Chamber</a>
+          <a class="link" href="./lesson1/chamber-site-plan.html">Site Plan</a>
+          <a class="link" href="#">Survey</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="form-container">
+        <form action="record.html">
+          <h1>Register</h1>
+          <div class="username-container form-field-container">
+            <label class="labels" for="username">Username: </label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              autofocus
+              placeholder="Username"
+            />
+          </div>
+          <div class="password-container form-field-container">
+            <label class="labels" for="password">Password: </label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              autofocus
+              placeholder="••••••••"
+              pattern="[a-zA-Z0-9]{8,}"
+              required
+            />
+          </div>
+          <div class="password-container form-field-container">
+            <label class="labels" for="password2">Confirm Password: </label>
+            <div id="formmessage"></div>
+            <input
+              type="password"
+              name="password2"
+              id="password2"
+              autofocus
+              placeholder="••••••••"
+              pattern="[a-zA-Z0-9]{8,}"
+              required
+            />
+          </div>
+
+          <div class="email-container form-field-container">
+            <label class="labels" for="email">Email: </label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              autofocus
+              placeholder="test@byui.edu"
+              pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+              title="Please enter a valid email address"
+            />
+          </div>
+
+          <div class="pageRating-container">
+            <div id="rangevalue">0</div>
+            <label class="labels" for="pageRating">Page Rating: </label>
+            <input
+              type="range"
+              id="pageRating"
+              name="pageRating"
+              min="0"
+              max="10"
+              value="0"
+              step="1"
+              list="rangevalues"
+            />
+            <datalist id="rangevalues">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </datalist>
+          </div>
+          <div class="btn-container">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="text copyright">
+        &copy;<span id="year">2023</span> - Grant Call - USA
+      </p>
+      <p class="text date">Last Modified: <span id="lastModified"></span></p>
+    </footer>
+  </body>
+</html>
