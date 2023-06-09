@@ -8,7 +8,8 @@ p2.addEventListener("focusout", checkSame);
 function checkSame() {
   console.log("here");
   if (p1.value !== p2.value) {
-    message.textContent = "❗Key Phrases DO NOT MATCH!";
+    message.textContent =
+      "The password and the confirmation password DO NOT MATCH";
     message.style.visibility = "show";
     p2.style.backgroundColor = "#fff0f3";
     p2.value = "";
