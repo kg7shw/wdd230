@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:title"
+      content="Grant Call - WDD 230 - Web Frontend Development"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kg7shw.github.io/wdd230/" />
+    <meta
+      property="og:image"
+      content="https://s3.us-west-2.amazonaws.com/assets.eastidahonews.com/wp-content/uploads/2022/10/Rexburg.jpg"
+    />
+    <title>Grant Call - WDD 230 - Web Frontend Development</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script src="./scripts/getDates.js" defer></script>
+    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/darkTheme.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-header">
+        <img
+          class="profile-pic"
+          src="./images/340506394_781696746633266_38122340940176988_n.webp"
+          alt="Profile picture of Grant Call"
+          width="100"
+          height="150"
+        />
+        <h1 class="profile_name">Grant Call</h1>
+      </div>
+
+      <nav class="nav">
+        <button id="menu-toggle" class="menu">
+          <img
+            class="ham-menu icon active"
+            src="./images/hamburger.svg"
+            alt="Hamburger Menu icon"
+            width="40"
+            height="40"
+          />
+          <img
+            class="x-menu icon"
+            src="./images/close.svg"
+            alt="X symbol to close the hamburger menu"
+            width="40"
+            height="40"
+          />
+        </button>
+        <div class="contents">
+          <a class="link active" href="./index.html">Home</a>
+          <a class="link" href="./chamber/index.html">Chamber</a>
+          <a class="link" href="./lesson1/chamber-site-plan.html">Site Plan</a>
+          <a class="link" href="./form.html">Survey</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="join">
+        <div class="form-container">
+          <form action="thankyou.html" method="get">
+            <h1>Register</h1>
+
+            <div class="form-fields">
+              <div class="username-container form-field-container">
+                <label class="labels" for="firstName">First Name: </label>
+                <input
+                  class="inputs"
+                  type="text"
+                  name="first-name"
+                  id="firstName"
+                  autofocus
+                  placeholder="John"
+                  required
+                />
+              </div>
+
+              <div class="form-field-container">
+                <label for="lastName" class="labels">Last Name: </label>
+                <input
+                  type="text"
+                  class="inputs"
+                  name="last-name"
+                  id="lastName"
+                  autofocus
+                  placeholder="Smith"
+                  required
+                />
+              </div>
+
+              <div class="form-field-container">
+                <label for="position" class="labels">Title or Position: </label>
+                <input
+                  type="text"
+                  class="inputs"
+                  name="position"
+                  id="position"
+                  autofocus
+                  placeholder="Position"
+                  pattern="[a-zA-Z\s\-]{7,}"
+                  required
+                />
+              </div>
+
+              <div class="form-field-container">
+                <label for="email" class="labels">Email address: </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autofocus
+                  placeholder="example@example.com"
+                  required
+                />
+              </div>
+
+              <div class="form-field-container">
+                <label for="phone" class="labels">Mobile Phone Number: </label>
+                <input
+                  type="tel"
+                  class="inputs"
+                  name="phone"
+                  id="phone"
+                  autofocus
+                  placeholder="Phone Number"
+                  required
+                />
+              </div>
+
+              <div class="form-field-container">
+                <label for="business-name" class="labels"
+                  >Business/Organization's Name:
+                </label>
+                <input
+                  type="text"
+                  class="inputs"
+                  name="business-name"
+                  id="business-name"
+                  autofocus
+                  placeholder="Business Name"
+                  required
+                />
+              </div>
+
+              <div class="form-field-container">
+                <label class="labels">Membership level: </label>
+                <input
+                  type="radio"
+                  id="np-membership"
+                  name="membership-level"
+                  value="NP Membership"
+                  required
+                />
+                <label for="np-membership"
+                  >NP Membership (non-profit organizations, there is no
+                  fee)</label
+                >
+                <br />
+                <input
+                  type="radio"
+                  id="bronze-membership"
+                  name="membership-level"
+                  value="Bronze Membership"
+                  required
+                />
+                <label for="bronze-membership">Bronze Membership</label>
+                <br />
+                <input
+                  type="radio"
+                  id="silver-membership"
+                  name="membership-level"
+                  value="Silver Membership"
+                  required
+                />
+                <label for="silver-membership">Silver Membership</label>
+                <br />
+                <input
+                  type="radio"
+                  id="gold-membership"
+                  name="membership-level"
+                  value="Gold Membership"
+                  required
+                />
+                <label for="gold-membership">Gold Membership</label>
+              </div>
+
+              <div class="form-field-container">
+                <label for="description" class="labels">Description: </label>
+                <textarea
+                  name="description"
+                  id="description"
+                  cols="30"
+                  rows="10"
+                  autofocus
+                ></textarea>
+              </div>
+
+              <input type="hidden" name="timestamp" id="timestamp" value="" />
+
+              <div class="btn-container">
+                <button class="form-submit-btn" type="submit">Submit</button>
+              </div>
+            </div>
+
+            <div class="benefits-container">
+              <h2>Membership Benefits</h2>
+
+              <div class="membership-level">
+                <h3>NP Membership</h3>
+                <ul>
+                  <li>No membership fee</li>
+                </ul>
+              </div>
+
+              <div class="membership-level">
+                <h3>Bronze Membership</h3>
+                <ul>
+                  <li>Special events invitations</li>
+                  <li>Training sessions</li>
+                </ul>
+              </div>
+
+              <div class="membership-level">
+                <h3>Silver Membership</h3>
+                <ul>
+                  <li>Advertising opportunities</li>
+                  <li>Event discounts</li>
+                  <li>Spotlight positions on the home page</li>
+                </ul>
+              </div>
+
+              <div class="membership-level">
+                <h3>Gold Membership</h3>
+                <ul>
+                  <li>All benefits of Silver Membership</li>
+                  <li>Additional VIP perks</li>
+                </ul>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="text copyright">
+        &copy;<span id="year">2023</span> - Grant Call - USA
+      </p>
+      <p class="text date">Last Modified: <span id="lastModified"></span></p>
+    </footer>
+  </body>
+</html>
