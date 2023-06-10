@@ -232,6 +232,18 @@
           color: #555657;
           /* Set the desired list item text color */ }
 
+.thank-you-section {
+  height: 76vh;
+  display: flex;
+  justify-content: center; }
+  .thank-you-section .thank-you-container {
+    text-align: center;
+    padding: 2rem; }
+    .thank-you-section .thank-you-container h1 {
+      font-size: 4rem; }
+    .thank-you-section .thank-you-container p {
+      font-size: 2rem; }
+
 @media screen and (min-width: 744px) {
   .header {
     justify-content: space-around; }

@@ -215,6 +215,7 @@
   }
 }
 
+// join page
 .join-section {
   background-color: #f5f5f5; /* Set the desired background color */
 
@@ -334,6 +335,26 @@
           }
         }
       }
+    }
+  }
+}
+
+// thank you page
+.thank-you-section {
+  height: 76vh;
+  display: flex;
+  justify-content: center;
+
+  .thank-you-container {
+    text-align: center;
+    padding: 2rem;
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    p {
+      font-size: 2rem;
     }
   }
 }
