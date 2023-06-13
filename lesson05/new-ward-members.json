@@ -1,0 +1,13 @@
+{
+  "family": {
+    "familyName": "Smith",
+    "dateMoved": "2022-10-15",
+    "NumberOfRecords": 4,
+    "Visited": true,
+    "family members": {
+      "Name": ["Jane", "Joey", "Susie", "Bobby"],
+      "Gender": ["Female", "Male", "Female", "Male"],
+      "Birthdate": ["2000-07-07", "1999-10-21", "2017-10-21", "2023-10-21"]
+    }
+  }
+}
