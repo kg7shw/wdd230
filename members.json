@@ -1,0 +1,74 @@
+{
+  "members": [
+    {
+      "name": "ABC Company",
+      "address": "123 Main Street, Cityville, State",
+      "phone": "(123) 456-7890",
+      "website": "http://www.abccompany.com",
+      "image": "abc_logo.png",
+      "membership_level": "Gold",
+      "description": "ABC Company is a leading provider of quality products and services.",
+      "special_offers": "10% discount for chamber members"
+    },
+    {
+      "name": "XYZ Corporation",
+      "address": "456 Elm Street, Townsville, State",
+      "phone": "(987) 654-3210",
+      "website": "http://www.xyzcorp.com",
+      "image": "xyz_logo.png",
+      "membership_level": "Silver",
+      "description": "XYZ Corporation offers innovative solutions for businesses worldwide.",
+      "special_offers": "Free consultation for chamber members"
+    },
+    {
+      "name": "PQR Industries",
+      "address": "789 Oak Avenue, Villageland, State",
+      "phone": "(555) 123-4567",
+      "website": "http://www.pqrindustries.com",
+      "image": "pqr_logo.png",
+      "membership_level": "Bronze",
+      "description": "PQR Industries specializes in manufacturing high-quality products.",
+      "special_offers": "20% off on first purchase for chamber members"
+    },
+    {
+      "name": "123 Services",
+      "address": "321 Pine Road, Hamletown, State",
+      "phone": "(111) 222-3333",
+      "website": "http://www.123services.com",
+      "image": "123_logo.png",
+      "membership_level": "Bronze",
+      "description": "123 Services offers a wide range of professional services.",
+      "special_offers": "Free estimate for chamber members"
+    },
+    {
+      "name": "EFG Solutions",
+      "address": "789 Cedar Lane, Citytown, State",
+      "phone": "(999) 888-7777",
+      "website": "http://www.efgsolutions.com",
+      "image": "efg_logo.png",
+      "membership_level": "Silver",
+      "description": "EFG Solutions provides cutting-edge technology solutions.",
+      "special_offers": "15% off on software products for chamber members"
+    },
+    {
+      "name": "LMN Corporation",
+      "address": "555 Maple Street, Suburbville, State",
+      "phone": "(444) 555-6666",
+      "website": "http://www.lmncorp.com",
+      "image": "lmn_logo.png",
+      "membership_level": "Gold",
+      "description": "LMN Corporation delivers exceptional business consulting services.",
+      "special_offers": "Free business analysis for chamber members"
+    },
+    {
+      "name": "RST Ventures",
+      "address": "777 Walnut Avenue, Villagetown, State",
+      "phone": "(777) 888-9999",
+      "website": "http://www.rstventures.com",
+      "image": "rst_logo.png",
+      "membership_level": "Silver",
+      "description": "RST Ventures offers investment opportunities for entrepreneurs.",
+      "special_offers": "50% discount on annual membership for chamber members"
+    }
+  ]
+}
