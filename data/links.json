@@ -74,13 +74,13 @@
         },
 
         {
-          "url": "",
-          "title": ""
+          "url": "lesson04/tablebuild.html",
+          "title": "HTML Tables"
         },
 
         {
-          "url": "",
-          "title": ""
+          "url": "lesson04/form-start/index.html",
+          "title": "HTML Forms"
         }
       ]
     },
@@ -89,18 +89,23 @@
       "lesson": "lesson 5",
       "links": [
         {
-          "url": "",
-          "title": ""
+          "url": "lesson05/new-ward-members.json",
+          "title": "JSON data"
         },
 
         {
-          "url": "",
-          "title": ""
+          "url": "https://codepen.io/cal20014/pen/OJaNZpM?editors=1100",
+          "title": "CSS Pseudo-elements"
         },
 
         {
-          "url": "",
-          "title": ""
+          "url": "./lesson05/prophets.html",
+          "title": "Fetch API"
+        },
+
+        {
+          "url": "../lesson05/weather.html",
+          "title": "Weather API"
         }
       ]
     },
@@ -109,18 +114,18 @@
       "lesson": "lesson 6",
       "links": [
         {
-          "url": "",
-          "title": ""
+          "url": "#",
+          "title": "N/A"
         },
 
         {
-          "url": "",
-          "title": ""
+          "url": "#",
+          "title": "N/A"
         },
 
         {
-          "url": "",
-          "title": ""
+          "url": "#",
+          "title": "N/A"
         }
       ]
     },
@@ -129,18 +134,18 @@
       "lesson": "lesson 7",
       "links": [
         {
-          "url": "",
-          "title": ""
+          "url": "#",
+          "title": "N/A"
         },
 
         {
-          "url": "",
-          "title": ""
+          "url": "#",
+          "title": "N/A"
         },
 
         {
-          "url": "",
-          "title": ""
+          "url": "#",
+          "title": "N/A"
         }
       ]
     }
