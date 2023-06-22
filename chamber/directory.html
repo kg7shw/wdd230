@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Dagupan Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kg7shw.github.io/wdd230/chamber" />
+    <meta
+      property="og:image"
+      content="https://countrycurrents.net/wp-content/uploads/2022/05/Dagupan-City-view-768x512.jpg"
+    />
+    <title>Dagupan Chamber of Commerce</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="./scripts/getDates.js" defer></script>
+    <script src="./scripts/main.js" defer></script>
+  </head>
+  <body class="body">
+    <header class="header">
+      <img
+        class="logo"
+        src="./images/Sun_Symbol_of_the_National_Flag_of_the_Philippines.svg.png"
+        alt="logo image of a filipino stylized sun"
+        width="50"
+        height="50"
+      />
+
+      <div class="right">
+        <nav class="nav">
+          <ul class="contents">
+            <li><a class="link active" href="index.html">Home</a></li>
+            <li><a class="link" href="#">Discover</a></li>
+            <li><a class="link" href="#">Directory</a></li>
+            <li><a class="link" href="./join.html">Join</a></li>
+            <li><a class="link" href="chamber-site-plan.html">Site Plan</a></li>
+          </ul>
+          <button id="menu-toggle" class="menu">
+            <img
+              class="ham-menu icon active"
+              src="./images/hamburger.svg"
+              alt="Hamburger Menu icon"
+              width="40"
+              height="40"
+            />
+            <img
+              class="x-menu icon"
+              src="./images/close.svg"
+              alt="X symbol to close the hamburger menu"
+              width="40"
+              height="40"
+            />
+          </button>
+        </nav>
+      </div>
+      <!-- <div class="nav-cta-container">
+        <button class="cta nav-cta">Join Now</button>
+      </div> -->
+    </header>
+
+    <main class="directory-main">
+      <article class="directory-article">
+        https://www.businesslist.ph/company/118101/jollibee-lucao-dagupan-city
+      </article>
+    </main>
+
+    <footer class="footer">
+      <p class="text copyright">
+        &copy;<span id="year">2023</span> - Dagupan - Philippines
+        <img src="./images/flag-for-philippines.svg" alt="Philippines Flag" />
+      </p>
+      <p class="text date">Last Modified: <span id="lastModified"></span></p>
+    </footer>
+  </body>
+</html>

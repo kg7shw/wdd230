@@ -1,0 +1,74 @@
+{
+  "members": [
+    {
+      "name": "Jollibee - Lucao, Dagupan City",
+      "address": "Lucao, Dagupan, Pangasinan, Philippines",
+      "phone": "(075) 588-0010",
+      "website": "http://www.jollibee.com.ph",
+      "image": "https://www.businesslist.ph/img/ph/l/1598982850-11-jollibee-lucao-dagupan-city.jpg",
+      "membership_level": "Gold",
+      "description": "Jollibee's is the Philippines' largest and most popular fastfood chain",
+      "special_offers": "10% discount for chamber members"
+    },
+    {
+      "name": "Fedex",
+      "address": "14 Perez Boulevard, Dagupan, Pangasinan, Philippines",
+      "phone": "+63 75 515-3178",
+      "website": "https://www.fedex.com/en-ph/home.html",
+      "image": "https://www.businesslist.ph/img/ph/d/_1543306808-80-fedex.jpg",
+      "membership_level": "Gold",
+      "description": "FedEx Corp. (NYSE: FDX) provides customers and businesses worldwide with a broad portfolio of transportation, e-commerce and business services.",
+      "special_offers": "Free consultation for chamber members"
+    },
+    {
+      "name": "Mang Inasal",
+      "address": "789 Oak Avenue, Villageland, State",
+      "phone": "(555) 123-4567",
+      "website": "http://www.pqrindustries.com",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Mang_Inasal.svg",
+      "membership_level": "Silver",
+      "description": "Mang Inasal hailed as best-tasting chicken inasal in the Philippines",
+      "special_offers": "20% off on first purchase for chamber members"
+    },
+    {
+      "name": "Exportbank - Dagupan City, Pangasinan",
+      "address": "321 Pine Road, Hamletown, State",
+      "phone": "(075) 523-1770",
+      "website": "http://www.exportbank.com.ph",
+      "image": "https://picsum.photos/200",
+      "membership_level": "Bronze",
+      "description": "Export and Industry Bank (Exportbank) is a premier local commercial bank catering to the premium middle market businesses and high net-worth individuals.",
+      "special_offers": "Free estimate for chamber members"
+    },
+    {
+      "name": "ABS-CBN - Pangasinan Office",
+      "address": "ABS-CBN Dagupan City Complex, AB Fernandez, Barangay Pantal, Dagupan, Pangasinan, Philippines",
+      "phone": "(075) 615-2282",
+      "website": "https://news.abs-cbn.com",
+      "image": "https://www.businesslist.ph/img/ph/r/_1543239201-88-abs-cbn-pangasinan-office.jpg",
+      "membership_level": "Silver",
+      "description": "ABS-CBN Corporation is the Philippines’ leading media and entertainment organization.",
+      "special_offers": "15% off on software products for chamber members"
+    },
+    {
+      "name": "Zarks Burgers",
+      "address": "28VV+X5P, Ground floor SM Center Dagupan , M.H. Del Pilar Street, Downtown District, Dagupan, Pangasinan, Philippines",
+      "phone": "(444) 555-6666",
+      "website": "https://www.zarksburgers.ph/",
+      "image": "https://www.zarksburgers.ph/wp-content/uploads/2021/08/Copy-of-Untitled-16.png",
+      "membership_level": "Gold",
+      "description": "The best Burgers in the Phillippines",
+      "special_offers": "10% discount for chamber members"
+    },
+    {
+      "name": "CSI Mall Dagupan",
+      "address": "Lucao Road, Dagupan, Pangasinan, Philippines",
+      "phone": "+63 75 522 4228",
+      "website": "csistore.ph",
+      "image": "https://lh5.googleusercontent.com/p/AF1QipMJNUJOKtWN002fezN2_i4zNZwDkB7xy1_W-lk=w296-h168-n-k-no",
+      "membership_level": "Silver",
+      "description": "The best mall in dagupan",
+      "special_offers": "20% discount on annual membership for chamber members"
+    }
+  ]
+}
