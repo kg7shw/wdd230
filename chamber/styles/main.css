@@ -244,6 +244,50 @@
     .thank-you-section .thank-you-container p {
       font-size: 2rem; }
 
+.d-main .menu {
+  margin: 1rem auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center; }
+
+.d-main .menu button {
+  padding: 1rem;
+  font-weight: 700;
+  border-radius: solid 3px gray; }
+
+.d-main .member-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  list-style: none; }
+  .d-main .member-list-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px; }
+    .d-main .member-list-item img {
+      display: block;
+      margin-bottom: 10px; }
+    .d-main .member-list-item .name {
+      font-size: 1.2rem;
+      font-weight: bold; }
+    .d-main .member-list-item .address,
+    .d-main .member-list-item .phone,
+    .d-main .member-list-item .website {
+      margin-bottom: 5px; }
+
+.d-main .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px; }
+
+.d-main .list {
+  display: block; }
+
+.d-main .menu {
+  margin-bottom: 20px; }
+  .d-main .menu button {
+    margin-right: 10px; }
+
 @media screen and (min-width: 744px) {
   .header {
     justify-content: space-around; }
