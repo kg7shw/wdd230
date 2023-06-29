@@ -1,22 +1,6 @@
 const baseURL = "https://kg7shw.github.io/wdd230";
 const membersURL = `${baseURL}/data/members.json`;
 
-// Move the gridButton, listButton, and memberList variables below their respective elements in the HTML
-const gridButton = document.querySelector("#grid");
-const listButton = document.querySelector("#list");
-const memberList = document.querySelector("#member-list");
-
-gridButton.addEventListener("click", () => {
-  memberList.classList.add("grid");
-  memberList.classList.remove("list");
-});
-
-listButton.addEventListener("click", () => {
-  memberList.classList.add("list");
-  memberList.classList.remove("grid");
-});
-
-// Move the articleMainDisplay variable below the displayMembers function
 const articleMainDisplay = document.querySelector(".directory-article");
 
 async function getMembers() {
@@ -38,16 +22,17 @@ function displayMembers(data) {
   const ul = document.createElement("ul");
   ul.setAttribute("id", "member-list");
   ul.classList.add("member-list");
+  ul.classList.add("grid");
 
   for (let member of data.members) {
     const li = document.createElement("li");
     li.classList.add("member-list-item");
     li.innerHTML = `
-      <img src="${member.image}" height="50">
-      <h3 class="name">${member.name}</h3>
+      <img src="${member.image}" width="50">
+      <h2 class="name">${member.name}</h2>
       <p class="address">${member.address}</p>
       <p class="phone">${member.phone}</p>
-      <p class="website">${member.website}</p>
+      <a class="website" href="${member.website}">${member.website}</a>
     `;
 
     ul.appendChild(li);
@@ -55,7 +40,24 @@ function displayMembers(data) {
 
   articleMainDisplay.appendChild(ul);
 
-  // Add the showList function inside displayMembers to apply the event listener after rendering the members
+  const gridButton = document.querySelector("#grid");
+  const listButton = document.querySelector("#list");
+  const memberList = document.querySelector("#member-list");
+
+  if (memberList) {
+    gridButton.addEventListener("click", () => {
+      memberList.classList.add("grid");
+      memberList.classList.remove("list");
+    });
+
+    listButton.addEventListener("click", () => {
+      memberList.classList.add("list");
+      memberList.classList.remove("grid");
+    });
+  } else {
+    console.log("Error: member-list element not found");
+  }
+
   function showList() {
     const menu = document.getElementById("menu");
     const list = document.getElementById("list");
