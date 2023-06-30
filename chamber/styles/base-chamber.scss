@@ -384,7 +384,7 @@
       padding: 2rem;
 
       img {
-        width: 25%;
+        width: 35%;
       }
 
       .name {
@@ -403,7 +403,7 @@
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 0.25rem;
+    gap: 0.25rem;
   }
 
   .grid li {
@@ -436,33 +436,4 @@
   .list li:nth-child(even) {
     background-color: #fff;
   }
-
-  // .list li {
-  //   display: grid;
-  //   grid-template-columns: 2fr 1fr 1fr;
-  //   margin: 0;
-  //   padding: 0.25rem;
-  // }
-
-  // .grid {
-  //   display: grid;
-  //   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  //   grid-gap: 5px;
-  //   align-items: center;
-  // }
-
-  // .list {
-  //   display: flex;
-  //   flex-direction: column;
-  // }
-
-  // .member-list {
-  //   padding: 0;
-  //   .member-list-item {
-  //     border: solid 3px gray;
-  //     // padding: 1rem;
-  //     // margin: 1rem;
-  //     list-style: none;
-  //   }
-  // }
 }
