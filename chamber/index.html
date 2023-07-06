@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="styles/main.css" />
     <script src="./scripts/getDates.js" defer></script>
     <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/weather-api-chamber.js" defer></script>
   </head>
   <body class="body">
     <header class="header">
@@ -74,10 +75,20 @@
         </div>
       </section>
       <section class="weather">
-        <article class="weather-card">
+        <div class="weather-card weather">
+          <figure>
+            <img id="weather-icon" src="" alt="" />
+            <figcaption class="condition element"></figcaption>
+          </figure>
+          <p>
+            The Current Temperature in Dagupan, Pangasinan is:
+            <span class="temperature element" id="current-temp"></span>
+          </p>
+        </div>
+        <!-- <article class="weather-card">
           <p class="temperature element">72°F</p>
           <p class="condition element">Partly Cloudy</p>
-        </article>
+        </article> -->
       </section>
 
       <section class="barangays-section">
