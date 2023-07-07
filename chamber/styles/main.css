@@ -87,12 +87,43 @@
 .main .weather-card {
   display: flex;
   justify-content: center;
-  width: 100vw;
+  align-items: center;
   background-color: var(--primary-color);
-  padding: 1.6rem 2.4rem;
-  color: #fff; }
-  .main .weather-card .element {
-    margin: 0.75rem; }
+  color: #fff;
+  padding: 1.6rem 2.4rem; }
+  .main .weather-card figure {
+    margin: 0; }
+  .main .weather-card img#weather-icon {
+    width: 60px;
+    height: 60px; }
+  .main .weather-card .condition {
+    margin: 0; }
+  .main .weather-card p {
+    margin: 0; }
+
+.main article.five-day-weather-forcast ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  .main article.five-day-weather-forcast ul li {
+    flex-basis: calc(20% - 20px);
+    margin-bottom: 20px;
+    text-align: center; }
+    .main article.five-day-weather-forcast ul li h2 {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px; }
+    .main article.five-day-weather-forcast ul li img.weather {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px; }
+    .main article.five-day-weather-forcast ul li p.minValues,
+    .main article.five-day-weather-forcast ul li p.maxValues {
+      font-size: 0.9rem; }
 
 .main .barangays-section {
   padding: 5rem 2.4rem; }
