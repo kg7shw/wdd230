@@ -26,13 +26,14 @@ function displayEventImages(data) {
     const divEvents = document.createElement("div");
     divEvents.classList.add("events");
     divEvents.innerHTML = `
-        <img src="${event.image}" width="50">
+        <div class event-continer-div>
+        <a class="website" href="${event.website}"><img src="${event.image}" width="50" alt="${event.name}" class="event-img" loading="lazy"></a>
         <h2 class="name">${event.name}</h2>
         <p class="address">${event.description}</p>
-        <a class="website" href="${event.website}">${events.website}</a>
+        </div>
       `;
 
-    eventsCards.appendChild(div);
+    eventsCards.appendChild(divEvents);
   }
 }
 
