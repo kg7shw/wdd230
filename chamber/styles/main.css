@@ -84,46 +84,57 @@
       font-size: 2.4rem;
       font-weight: 500; }
 
-.main .weather-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.main .weather {
   background-color: var(--primary-color);
-  color: #fff;
-  padding: 1.6rem 2.4rem; }
-  .main .weather-card figure {
-    margin: 0; }
-  .main .weather-card img#weather-icon {
-    width: 60px;
-    height: 60px; }
-  .main .weather-card .condition {
-    margin: 0; }
-  .main .weather-card p {
-    margin: 0; }
-
-.main article.five-day-weather-forcast ul {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-top: 2rem;
-  list-style-type: none;
-  margin: 0;
-  padding: 0; }
-  .main article.five-day-weather-forcast ul li {
-    flex-basis: calc(20% - 20px);
-    margin-bottom: 20px;
+  padding: 1rem; }
+  .main .weather .weather-section-title {
+    padding: 0;
+    margin: 0;
+    color: #fff;
     text-align: center; }
-    .main article.five-day-weather-forcast ul li h2 {
-      font-size: 1.2rem;
-      font-weight: bold;
-      margin-bottom: 10px; }
-    .main article.five-day-weather-forcast ul li img.weather {
+  .main .weather .weather-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1.6rem 2.4rem; }
+    .main .weather .weather-card figure {
+      margin: 0;
+      padding: 0 2rem; }
+    .main .weather .weather-card img#weather-icon {
       width: 60px;
-      height: 60px;
-      margin-bottom: 10px; }
-    .main article.five-day-weather-forcast ul li p.minValues,
-    .main article.five-day-weather-forcast ul li p.maxValues {
-      font-size: 0.9rem; }
+      height: 60px; }
+    .main .weather .weather-card .condition {
+      margin: 0; }
+    .main .weather .weather-card p {
+      margin: 0; }
+  .main .weather article.five-day-weather-forcast ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 10rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: #fff; }
+    .main .weather article.five-day-weather-forcast ul li {
+      margin: 0;
+      text-align: center;
+      padding: 0; }
+      .main .weather article.five-day-weather-forcast ul li h2 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding: 0 0 0.5rem 0;
+        margin: -15px 0 0; }
+      .main .weather article.five-day-weather-forcast ul li img.weather {
+        width: 70%;
+        padding: 0;
+        margin: 0; }
+      .main .weather article.five-day-weather-forcast ul li p.minValues,
+      .main .weather article.five-day-weather-forcast ul li p.maxValues {
+        font-size: 1.2rem;
+        display: inline; }
 
 .main .barangays-section {
   padding: 5rem 2.4rem; }

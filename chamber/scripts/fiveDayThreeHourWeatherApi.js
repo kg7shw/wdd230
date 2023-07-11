@@ -63,7 +63,7 @@ function displayMembers(data) {
 
     const p1 = document.createElement("p");
     p1.classList.add("minValues");
-    p1.textContent = `${forecast.minTemp}°C`;
+    p1.textContent = `${forecast.minTemp}°C - `;
 
     const p2 = document.createElement("p");
     p2.classList.add("maxValues");
