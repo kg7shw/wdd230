@@ -28,7 +28,6 @@ function displayEventImages(data) {
     divEvents.innerHTML = `
         <div class event-continer-div>
         <a class="website" href="${event.website}"><img src="${event.image}" width="50" alt="${event.name}" class="event-img" loading="lazy"></a>
-        <h2 class="name">${event.name}</h2>
         <p class="address">${event.description}</p>
         </div>
       `;
