@@ -111,13 +111,14 @@
       margin: 0; }
   .main .weather article.five-day-weather-forcast ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 1rem 10rem;
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 2rem;
     background-color: var(--primary-color);
-    color: #fff; }
+    color: #fff;
+    max-width: 75rem; }
     .main .weather article.five-day-weather-forcast ul li {
       margin: 0;
       text-align: center;
@@ -155,14 +156,19 @@
   background-color: var(--primary-color);
   padding: 2rem;
   color: #fff; }
-  .main .events-section .events-cards .events {
-    display: flex;
+  .main .events-section .events-cards {
+    overflow-x: auto;
+    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-    padding: 1rem; }
-    .main .events-section .events-cards .events .event-img {
-      width: 100%;
-      height: auto; }
+    display: flex; }
+    .main .events-section .events-cards .events {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem; }
+      .main .events-section .events-cards .events .event-img {
+        width: 100%;
+        height: auto; }
   .main .events-section .btn-container {
     display: flex;
     justify-content: center; }

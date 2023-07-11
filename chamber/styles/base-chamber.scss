@@ -161,13 +161,14 @@
     article.five-day-weather-forcast {
       ul {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         padding: 1rem 10rem;
         list-style-type: none;
-        margin: 0;
+        margin: auto;
         padding: 2rem;
         background-color: var(--primary-color);
         color: #fff;
+        max-width: 75rem;
 
         li {
           // flex-basis: calc(20% - 20px);
@@ -222,11 +223,15 @@
     padding: 2rem;
     color: #fff;
     .events-cards {
+      overflow-x: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+      display: flex;
       .events {
         display: flex;
         justify-content: center;
         text-align: center;
-        padding: 1rem;
+        padding: 2rem;
 
         .event-img {
           width: 100%;
