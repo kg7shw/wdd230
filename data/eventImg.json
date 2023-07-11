@@ -3,22 +3,26 @@
     {
       "image": "https://cdn-az.allevents.in/events1/banners/248ad96f94d53b19b76491f51a0ab45d2564266baab3cfde89aa8cc678b517b6-rimg-w960-h960-gmir.jpg?v=1688935411",
       "name": "Event 1",
-      "description": "Description for Event 1"
+      "description": "Description for Event 1",
+      "website": "https://www.example.com/event1"
     },
     {
       "image": "https://cdn-az.allevents.in/events4/banners/9e7735a417622e0a74417a4d4c52512128d40d1253a5bc5839d71b89dc5a61a9-rimg-w960-h720-gmir.jpg?v=1688798566",
       "name": "Event 2",
-      "description": "Description for Event 2"
+      "description": "Description for Event 2",
+      "website": "https://www.example.com/event2"
     },
     {
       "image": "https://cdn-az.allevents.in/events1/banners/edab5afdac9e3cb16ef66aa7480e6a2fcec8c0a9e19edacf4aafc2c871b0b8d4-rimg-w960-h421-gmir.jpg?v=1688713434",
       "name": "Event 3",
-      "description": "Description for Event 3"
+      "description": "Description for Event 3",
+      "website": "https://www.example.com/event3"
     },
     {
       "image": "https://cdn-az.allevents.in/events5/banners/e2ca386974d45658a2267485970294937ca482cf9013332bbe0a9e1b5ef80552-rimg-w1200-h675-gmir.jpg?v=1688966927",
       "name": "Event 4",
-      "description": "Description for Event 4"
+      "description": "Description for Event 4",
+      "website": "https://www.example.com/event4"
     }
   ]
 }
