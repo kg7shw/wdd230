@@ -1,13 +1,15 @@
-const baseURL = "https://kg7shw.github.io/wdd230";
-const eventsImgURL = `${baseURL}/data/eventsImg.json`;
+const baseURLEvents = "https://kg7shw.github.io/wdd230";
+const eventImgURL = `${baseURLEvents}/data/eventImg.json`;
+console.log(eventImgURL);
 
 const eventsContainer = document.getElementById("events-container");
 
 async function getEventImages() {
   try {
-    const response = await fetch(eventsURL);
+    const response = await fetch(eventImgURL);
     if (response.ok) {
       const data = await response.json();
+      console.log(data);
       displayEventImages(data);
     } else {
       throw new Error(await response.text());
