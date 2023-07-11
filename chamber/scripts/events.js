@@ -20,25 +20,73 @@ async function getEventImages() {
 }
 
 function displayEventImages(data) {
-  for (let imageUrl of data.images) {
-    const eventDiv = document.createElement("div");
-    eventDiv.classList.add("events");
+  const eventsCards = document.querySelector(".events-cards");
 
-    const picture = document.createElement("picture");
-    const img = document.createElement("img");
-    img.src = imageUrl;
-    img.alt = "Event Image";
-    img.classList.add("event-img");
-    img.loading = "lazy";
+  for (let eventimage of data.images) {
+    const divEvents = document.createElement("div");
+    divEvents.classList.add("events");
+    divEvents.innerHTML = `
+        <img src="${data.images}" width="50">
+        <h2 class="name">${member.name}</h2>
+        <p class="address">${member.address}</p>
+        <p class="phone">${member.phone}</p>
+        <a class="website" href="${member.website}">${member.website}</a>
+      `;
 
-    const eventText = document.createElement("p");
-    eventText.textContent = "Lorem ipsum dolor sit amet";
+    eventsCards.appendChild(div);
+  }
 
-    picture.appendChild(img);
-    eventDiv.appendChild(picture);
-    eventDiv.appendChild(eventText);
-    eventsContainer.appendChild(eventDiv);
+  articleMainDisplay.appendChild(ul);
+
+  const gridButton = document.querySelector("#grid");
+  const listButton = document.querySelector("#list");
+  const memberList = document.querySelector("#member-list");
+
+  if (memberList) {
+    gridButton.addEventListener("click", () => {
+      memberList.classList.add("grid");
+      memberList.classList.remove("list");
+    });
+
+    listButton.addEventListener("click", () => {
+      memberList.classList.add("list");
+      memberList.classList.remove("grid");
+    });
+  } else {
+    console.log("Error: member-list element not found");
+  }
+
+  function showList() {
+    const menu = document.getElementById("menu");
+    const list = document.getElementById("list");
+
+    if (menu && list) {
+      menu.classList.add("active");
+      list.classList.remove("hidden");
+    }
+  }
+
+  function hideList() {
+    const menu = document.getElementById("menu");
+    const list = document.getElementById("list");
+
+    if (menu && list) {
+      menu.classList.remove("active");
+      list.classList.add("hidden");
+    }
+  }
+
+  const menuButton = document.getElementById("menu-button");
+  if (menuButton) {
+    menuButton.addEventListener("click", function () {
+      const list = document.getElementById("list");
+      if (list && list.classList.contains("hidden")) {
+        showList();
+      } else {
+        hideList();
+      }
+    });
   }
 }
 
-getEventImages();
+getMembers();
