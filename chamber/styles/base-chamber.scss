@@ -221,21 +221,27 @@
   .events-section {
     background-color: var(--primary-color);
     padding: 2rem;
+
     color: #fff;
     .events-cards {
-      overflow-x: auto;
-      flex-wrap: wrap;
+      // overflow-x: auto;
+      // flex-wrap: wrap;
       justify-content: center;
       display: flex;
       .events {
+        overflow-x: auto;
+        flex-wrap: wrap;
         display: flex;
         justify-content: center;
         text-align: center;
         padding: 2rem;
 
-        .event-img {
-          width: 25%;
-          height: auto;
+        .event-continer-div {
+          .event-img {
+            height: 15%;
+            width: auto;
+            padding: 1rem;
+          }
         }
       }
     }

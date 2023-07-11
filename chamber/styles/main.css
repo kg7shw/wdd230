@@ -157,18 +157,19 @@
   padding: 2rem;
   color: #fff; }
   .main .events-section .events-cards {
-    overflow-x: auto;
-    flex-wrap: wrap;
     justify-content: center;
     display: flex; }
     .main .events-section .events-cards .events {
+      overflow-x: auto;
+      flex-wrap: wrap;
       display: flex;
       justify-content: center;
       text-align: center;
       padding: 2rem; }
-      .main .events-section .events-cards .events .event-img {
-        width: 25%;
-        height: auto; }
+      .main .events-section .events-cards .events .event-continer-div .event-img {
+        height: 15%;
+        width: auto;
+        padding: 1rem; }
   .main .events-section .btn-container {
     display: flex;
     justify-content: center; }

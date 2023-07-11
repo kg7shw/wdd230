@@ -26,8 +26,8 @@ function displayEventImages(data) {
     const divEvents = document.createElement("div");
     divEvents.classList.add("events");
     divEvents.innerHTML = `
-        <div class event-continer-div>
-        <a class="website" href="${event.website}"><img src="${event.image}" width="50" alt="${event.name}" class="event-img" loading="lazy"></a>
+        <div class="event-continer-div">
+        <a class="website" href="${event.website}"><img src="${event.image}" height="50" alt="${event.name}" class="event-img" loading="lazy"></a>
         <p class="address">${event.description}</p>
         </div>
       `;
