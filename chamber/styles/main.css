@@ -157,19 +157,18 @@
   padding: 2rem;
   color: #fff; }
   .main .events-section .events-cards {
-    justify-content: center;
+    overflow-x: auto;
+    justify-content: space-between;
     display: flex; }
     .main .events-section .events-cards .events {
-      overflow-x: auto;
-      flex-wrap: wrap;
       display: flex;
       justify-content: center;
       text-align: center;
-      padding: 2rem; }
-      .main .events-section .events-cards .events .event-continer-div .event-img {
-        height: 15%;
-        width: auto;
-        padding: 1rem; }
+      padding: 2rem;
+      flex-direction: column;
+      min-width: fit-content; }
+      .main .events-section .events-cards .events:not(:last-of-type) {
+        margin-right: 2.4rem; }
   .main .events-section .btn-container {
     display: flex;
     justify-content: center; }
@@ -409,3 +408,5 @@ html {
   html body {
     font-size: 1.6rem;
     margin: 0; }
+  html img {
+    max-width: 100%; }

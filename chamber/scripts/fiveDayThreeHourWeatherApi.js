@@ -1,8 +1,8 @@
 const lat = "16.042";
 const lon = "120.33";
 const units = "metric";
-const apiKey = "17f9ad6c31f529f1ee759cfe8b2014d0";
-const fiveDayThreeHourForecast = `https://api.openweathermap.org/data/2.5/forecast?units=${units}&lat=${lat}&lon=${lon}&appid=${apiKey}`;
+// const apiKey = "17f9ad6c31f529f1ee759cfe8b2014d0";
+// const fiveDayThreeHourForecast = `https://api.openweathermap.org/data/2.5/forecast?units=${units}&lat=${lat}&lon=${lon}&appid=${apiKey}`;
 
 const currentTemp = document.querySelector("#current-temp");
 const weatherIcon = document.querySelector("#weather-icon");

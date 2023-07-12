@@ -221,30 +221,28 @@
   .events-section {
     background-color: var(--primary-color);
     padding: 2rem;
-
     color: #fff;
+
     .events-cards {
-      // overflow-x: auto;
+      overflow-x: auto;
       // flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-between;
       display: flex;
+
       .events {
-        overflow-x: auto;
-        flex-wrap: wrap;
         display: flex;
         justify-content: center;
         text-align: center;
         padding: 2rem;
+        flex-direction: column;
+        min-width: fit-content;
 
-        .event-continer-div {
-          .event-img {
-            height: 15%;
-            width: auto;
-            padding: 1rem;
-          }
+        &:not(:last-of-type) {
+          margin-right: 2.4rem;
         }
       }
     }
+
     .btn-container {
       display: flex;
       justify-content: center;
