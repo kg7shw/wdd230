@@ -12,6 +12,34 @@
   --accent-color-3: #fff;
   --accent-color-4: #fff;
 }
+.banner {
+  width: 100%;
+  background-color: var(--accent-color-1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.banner-message {
+  font-size: 16px;
+  color: #000;
+  margin-right: 10px;
+  max-width: 75%;
+  text-align: center;
+}
+
+.banner-close {
+  background-color: var(--accent-color-1);
+  color: #333;
+  border: none;
+  padding: 5px 10px;
+  font-size: 1.75rem;
+  cursor: pointer;
+}
+
+.banner-close:hover {
+  font-size: 2rem;
+  transition: 0.1s;
+}
 
 .header {
   display: flex;
