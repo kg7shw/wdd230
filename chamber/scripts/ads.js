@@ -41,10 +41,12 @@ function displayAdImages(data) {
     const divAds = document.createElement("div");
     divAds.classList.add("ads");
     divAds.innerHTML = `
+      <div class="ad-card-top">
       <a class="website" href="${ad.website}">
         <img src="${ad.image}" height="50" alt="${ad.name}" class="ad-img" loading="lazy">
       </a>
       <p class="ad-name">${ad.name}</p>
+      </div>
       <p class="description">${ad.description}</p>
     `;
 

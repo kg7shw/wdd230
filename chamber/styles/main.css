@@ -62,20 +62,20 @@
       color: #fff;
       transition: color 300ms; }
 
-.main .hero-section {
+.c-main .hero-section {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../images/karlo-king-WRBEzYe6TIU-unsplash.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 5rem 0; }
-  .main .hero-section .hero-container {
+  .c-main .hero-section .hero-container {
     padding: 3rem; }
-    .main .hero-section .hero-container .heading {
+    .c-main .hero-section .hero-container .heading {
       color: #fff;
       margin: 0;
       padding: 1rem 0 1.5rem 0;
       font-size: 4.8rem; }
-    .main .hero-section .hero-container .hero-cta {
+    .c-main .hero-section .hero-container .hero-cta {
       background-color: var(--primary-color);
       color: #fff;
       padding: 0.75rem;
@@ -84,32 +84,32 @@
       font-size: 2.4rem;
       font-weight: 500; }
 
-.main .weather {
+.c-main .weather {
   background-color: var(--primary-color);
   padding: 1rem; }
-  .main .weather .weather-section-title {
+  .c-main .weather .weather-section-title {
     padding: 0;
     margin: 0;
     color: #fff;
     text-align: center; }
-  .main .weather .weather-card {
+  .c-main .weather .weather-card {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--primary-color);
     color: #fff;
     padding: 1.6rem 2.4rem; }
-    .main .weather .weather-card figure {
+    .c-main .weather .weather-card figure {
       margin: 0;
       padding: 0 2rem; }
-    .main .weather .weather-card img#weather-icon {
+    .c-main .weather .weather-card img#weather-icon {
       width: 60px;
       height: 60px; }
-    .main .weather .weather-card .condition {
+    .c-main .weather .weather-card .condition {
       margin: 0; }
-    .main .weather .weather-card p {
+    .c-main .weather .weather-card p {
       margin: 0; }
-  .main .weather article.five-day-weather-forcast ul {
+  .c-main .weather article.five-day-weather-forcast ul {
     display: flex;
     justify-content: space-between;
     padding: 1rem 10rem;
@@ -118,28 +118,29 @@
     padding: 2rem;
     background-color: var(--primary-color);
     color: #fff;
-    max-width: 75rem; }
-    .main .weather article.five-day-weather-forcast ul li {
+    max-width: 75rem;
+    flex-wrap: wrap; }
+    .c-main .weather article.five-day-weather-forcast ul li {
       margin: 0;
       text-align: center;
       padding: 0; }
-      .main .weather article.five-day-weather-forcast ul li h2 {
+      .c-main .weather article.five-day-weather-forcast ul li h2 {
         font-size: 1.4rem;
         font-weight: 500;
         padding: 0 0 0.5rem 0;
         margin: -15px 0 0; }
-      .main .weather article.five-day-weather-forcast ul li img.weather {
+      .c-main .weather article.five-day-weather-forcast ul li img.weather {
         width: 70%;
         padding: 0;
         margin: 0; }
-      .main .weather article.five-day-weather-forcast ul li p.minValues,
-      .main .weather article.five-day-weather-forcast ul li p.maxValues {
+      .c-main .weather article.five-day-weather-forcast ul li p.minValues,
+      .c-main .weather article.five-day-weather-forcast ul li p.maxValues {
         font-size: 1.2rem;
         display: inline; }
 
-.main .barangays-section {
+.c-main .barangays-section {
   padding: 5rem 2.4rem; }
-  .main .barangays-section .barangays-list {
+  .c-main .barangays-section .barangays-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 4.8rem;
@@ -147,44 +148,49 @@
     padding: 0;
     list-style-type: none;
     max-width: 50rem;
-    margin: auto; }
-    .main .barangays-section .barangays-list .text {
+    margin: auto;
+    text-align: center; }
+    .c-main .barangays-section .barangays-list .text {
       padding: 0.5rem 0 0 0;
       margin: 0; }
 
-.main .events-section {
+.c-main .events-section {
   background-color: var(--primary-color);
   padding: 2rem;
   color: #fff; }
-  .main .events-section .events-cards {
+  .c-main .events-section .events-cards {
     overflow-x: auto;
     justify-content: space-between;
     display: flex; }
-    .main .events-section .events-cards .events {
+    .c-main .events-section .events-cards .events {
       display: flex;
       justify-content: center;
       text-align: center;
       padding: 2rem;
       flex-direction: column;
       min-width: fit-content; }
-      .main .events-section .events-cards .events:not(:last-of-type) {
+      .c-main .events-section .events-cards .events:not(:last-of-type) {
         margin-right: 2.4rem; }
-  .main .events-section .btn-container {
+  .c-main .events-section .btn-container {
     display: flex;
     justify-content: center; }
-    .main .events-section .btn-container .event-load-btn {
+    .c-main .events-section .btn-container .event-load-btn {
       padding: 0.3rem;
       border: none;
       border-radius: 3px; }
 
-.main .ads-section {
-  padding: 3rem 0; }
-  .main .ads-section .ads-card {
-    padding: 1rem 4rem; }
-    .main .ads-section .ads-card .description {
-      font-weight: 700; }
-    .main .ads-section .ads-card .ad-name {
-      font-weight: 300; }
+.c-main .ads-section {
+  padding: 4.8rem; }
+  .c-main .ads-section .ads-cards .ads {
+    padding: 2rem; }
+    .c-main .ads-section .ads-cards .ads .ad-name {
+      padding: 1rem;
+      font-size: 1.75rem;
+      font-weight: 600; }
+    .c-main .ads-section .ads-cards .ads .ad-card-top {
+      display: flex;
+      align-items: center;
+      border-bottom: 2px solid var(--primary-color); }
 
 .footer {
   background-color: var(--primary-color);
@@ -372,28 +378,14 @@
       border: none; }
     .header .logo {
       padding: 0; }
-  .s-home {
-    grid-template-columns: 2fr 1fr;
-    grid-column-gap: 3.2rem;
+  .c-main .ads-section .ads-cards {
+    display: flex;
+    justify-content: space-between;
     max-width: 100rem;
     margin: auto; }
-    .s-home .top-ribbon {
-      grid-column: 1/3; }
-    .s-home .barangays-section .barangays-list .card-container {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-    .s-home .events-section {
-      display: flex;
-      justify-content: space-around;
-      padding: 1rem; }
-    .s-home .ads-section .ads-card {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      column-gap: 1rem;
-      padding: 1rem 4rem;
-      margin: auto;
-      max-width: 100rem; }
+    .c-main .ads-section .ads-cards .ads {
+      padding: 1rem;
+      flex-basis: 50%; }
   d-main .grid {
     gap: 2rem; } }
 

@@ -92,7 +92,7 @@
   }
 }
 
-.main {
+.c-main {
   .hero-section {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
       url(../images/karlo-king-WRBEzYe6TIU-unsplash.webp);
@@ -169,6 +169,7 @@
         background-color: var(--primary-color);
         color: #fff;
         max-width: 75rem;
+        flex-wrap: wrap;
 
         li {
           // flex-basis: calc(20% - 20px);
@@ -210,6 +211,7 @@
       list-style-type: none;
       max-width: 50rem;
       margin: auto;
+      text-align: center;
 
       .text {
         padding: 0.5rem 0 0 0;
@@ -256,15 +258,21 @@
   }
 
   .ads-section {
-    padding: 3rem 0;
-    .ads-card {
-      padding: 1rem 4rem;
+    padding: 4.8rem;
+    .ads-cards {
+      .ads {
+        padding: 2rem;
+        .ad-name {
+          padding: 1rem;
+          font-size: 1.75rem;
+          font-weight: 600;
+        }
 
-      .description {
-        font-weight: 700;
-      }
-      .ad-name {
-        font-weight: 300;
+        .ad-card-top {
+          display: flex;
+          align-items: center;
+          border-bottom: 2px solid var(--primary-color);
+        }
       }
     }
   }
