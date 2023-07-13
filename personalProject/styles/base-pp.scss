@@ -1,0 +1,66 @@
+.header {
+  .hero-img {
+    position: relative;
+    text-align: center;
+    img {
+      height: auto;
+    }
+    .overlay {
+      // background-color: #1f1d1d;
+      // color: #fff;
+      // width: fit-content;
+      // padding: 2rem;
+      // border-radius: 5px;
+      // position: absolute;
+      // left: 350px;
+      // top: 75px;
+
+      position: absolute;
+      top: 5rem;
+      left: 30rem;
+      background-color: #0f0f0f;
+      padding: 2.4rem;
+      border-radius: 0.6rem;
+      color: #fff;
+    }
+  }
+  .top-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(9, 59, 79);
+    background: linear-gradient(
+      0deg,
+      rgba(9, 59, 79, 1) 10%,
+      rgba(9, 91, 121, 1) 56%
+    );
+    padding: 3rem 2rem;
+
+    .profile-pic {
+      border-radius: 0.8rem;
+    }
+
+    .profile_name {
+      padding-left: 2.4rem;
+      color: #d1d1d1;
+    }
+  }
+}
+
+.footer {
+  background-color: rgb(15, 15, 15);
+  padding: 3.2rem;
+
+  .text {
+    color: #d1d1d1;
+    margin: 0;
+    font-weight: 600;
+    text-align: center;
+
+    &.date {
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin-top: 0.6rem;
+    }
+  }
+}
