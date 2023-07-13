@@ -22,10 +22,11 @@
     <link rel="icon" href="./images/favicon.ico" />
     <link rel="stylesheet" href="./styles/main.css" />
     <script src="./scripts/getDates.js" defer></script>
-    <script src="./scripts/main.js" defer></script>
     <script src="./scripts/darkTheme.js" defer></script>
     <script src="./scripts/weather-api.js" defer></script>
     <script src="./scripts/links.js" defer></script>
+    <script src="./scripts/pageVisits.js" defer></script>
+    <script src="./scripts/main.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -64,23 +65,20 @@
           <a class="link" href="./form.html">Survey</a>
         </div>
       </nav>
-    </header>
-
-    <main class="s-home">
       <div class="hero-img">
         <picture>
           <source
-            media="(min-width: 700px)"
+            media="(min-width: 500px)"
             srcset="./images/urdaneta_philippines_temple_small.webp"
           />
           <source
-            media="(min-width: 1000px)"
+            media="(min-width: 700px)"
             srcset="./images/urdaneta_philippines_temple_medium.webp"
           />
           <img
             src="./images/urdaneta_philippines_temple_large.webp"
             alt="Urdaneta Temple Photo"
-            height="750"
+            width="1000"
           />
         </picture>
 
@@ -88,6 +86,9 @@
           <span class="text">Urdaneta, Philippines</span>
         </div>
       </div>
+    </header>
+
+    <main class="s-home">
       <div class="top-ribbon">
         <h2 class="heading">WDD 230: Web Frontend Development</h2>
         <button id="theme-toggle" class="theme-toggle">
@@ -120,7 +121,7 @@
           <h4 class="text location">Rexburg, Idaho</h4>
           <div class="weather">
             <figure>
-              <img id="weather-icon" src="" alt="" />
+              <img id="weather-icon" src="#" alt="weather icon" />
               <figcaption></figcaption>
             </figure>
             <p>
@@ -128,9 +129,22 @@
               <span id="current-temp"></span>
             </p>
           </div>
-          <h4 class="text">Page Visits:</h4>
+          <p>
+            <span class="label">Page Visits: </span><span class="visits"></span>
+          </p>
         </div>
       </section>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7663.505582240425!2d-111.79010620447349!3d43.82290438212121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1689214318905!5m2!1sen!2sus"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </main>
     <footer class="footer">
       <p class="text copyright">

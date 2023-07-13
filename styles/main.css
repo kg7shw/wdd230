@@ -20,6 +20,21 @@ body.dark-theme {
       body.dark-theme .card.activities .list .item .sub_link {
         color: #3ccbf3; }
 
+.header .hero-img {
+  position: relative;
+  text-align: center; }
+  .header .hero-img img {
+    height: auto; }
+  .header .hero-img .overlay {
+    background-color: #1f1d1d;
+    color: #fff;
+    width: fit-content;
+    padding: 2rem;
+    border-radius: 5px;
+    position: absolute;
+    left: 350px;
+    top: 75px; }
+
 .header .top-header {
   display: flex;
   align-items: center;
@@ -108,6 +123,12 @@ body.dark-theme {
         align-items: center;
         justify-content: center;
         column-gap: 0.8rem; }
+  .s-home .map {
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5.6rem; }
 
 .footer {
   background-color: #0f0f0f;
