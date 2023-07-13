@@ -19,9 +19,9 @@
       "websiteUrl": "https://example.com/card3"
     },
     {
-      "title": "Card 4",
+      "title": "Take a Gap Year",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum tellus eget sapien bibendum, at ultrices ipsum varius. Fusce id lacinia est. Nunc posuere tortor dolor, ac malesuada velit vestibulum vel. Sed condimentum, libero id sollicitudin mattis, neque turpis tincidunt ligula, sit amet posuere sem tortor in arcu.",
-      "imageUrl": "https://picsum.photos/300/300/?blur=2",
+      "imageUrl": "https://assets.churchofjesuschrist.org/be7934de1fa78bece2ab4d76cd843c28caef29ce",
       "websiteUrl": "https://example.com/card4"
     },
     {
@@ -37,10 +37,10 @@
       "websiteUrl": "https://example.com/card6"
     },
     {
-      "title": "Card 7",
+      "title": "Attend a Coding BootCamp",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum tellus eget sapien bibendum, at ultrices ipsum varius. Fusce id lacinia est. Nunc posuere tortor dolor, ac malesuada velit vestibulum vel. Sed condimentum, libero id sollicitudin mattis, neque turpis tincidunt ligula, sit amet posuere sem tortor in arcu.",
-      "imageUrl": "https://picsum.photos/300/300/?blur=2",
-      "websiteUrl": "https://example.com/card7"
+      "imageUrl": "https://d33wubrfki0l68.cloudfront.net/bbfa33a202e8612d49b6c1ed05c1fdd8e4001566/bbdd1/img/fcc_secondary_small.svg",
+      "websiteUrl": "https://www.freecodecamp.org/"
     }
   ]
 }
