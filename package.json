@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css:watch": "node-sass styles/main.scss styles/main.css -w dist",
-    "css:watch-pp": "node-sass styles/main.scss personalProject/styles/main.css -w dist",
+    "css:watch-pp": "node-sass personalProject/styles/main.scss personalProject/styles/main.css -w dist",
     "css:watch-chamber": "node-sass chamber/styles/main.scss chamber/styles/main.css -w dist"
   },
   "author": "",
