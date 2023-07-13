@@ -39,6 +39,44 @@
       font-weight: 300;
       margin-top: 0.6rem; }
 
+.p-home .info-card-section .card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: auto;
+  padding: 0;
+  max-width: 100rem; }
+  .p-home .info-card-section .card-list .card-list-item {
+    list-style: none;
+    position: relative; }
+    .p-home .info-card-section .card-list .card-list-item .title {
+      font-weight: 700;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black;
+      font-size: 2.4rem; }
+    .p-home .info-card-section .card-list .card-list-item .text-wrapper {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.9);
+      color: white;
+      opacity: 0;
+      transition: opacity 300ms;
+      text-align: center; }
+
 html {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;

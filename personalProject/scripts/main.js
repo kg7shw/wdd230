@@ -27,14 +27,39 @@ function displayCards(data) {
   for (let card of data.cards) {
     const li = document.createElement("li");
     li.classList.add("card-list-item");
-    li.innerHTML = `
-      <img src="${card.imageUrl}" width="300">
-      <h2 class="title">${card.title}</h2>
-      <div class="text-wrapper>
-      <p class="description">${card.description}</p>
-      <a class="website" href="${card.websiteUrl}">${card.websiteUrl}</a>
-      </div>
-    `;
+    const img = document.createElement("img");
+    img.setAttribute("src", card.imageUrl);
+    img.setAttribute("width", 300);
+    li.classList.add("img");
+    const h2 = document.createElement("h2");
+    h2.setAttribute("src", card.imageUrl);
+    h2.setAttribute("width", 300);
+    h2.textContent = card.title;
+    h2.classList.add("title");
+    const textWrapper = document.createElement("div");
+    textWrapper.classList.add("text-wrapper");
+    const p = document.createElement("p");
+    p.classList.add("description");
+    p.textContent = card.description;
+    const a = document.createElement("a");
+    a.textContent = card.websiteUrl;
+    a.classList.add("website");
+    img.setAttribute("href", card.imageUrl);
+
+    li.appendChild(img);
+    li.appendChild(h2);
+    li.appendChild(textWrapper);
+    textWrapper.appendChild(p);
+    textWrapper.appendChild(a);
+
+    // li.innerHTML = `
+    //   <img src="${card.imageUrl}" width="300">
+    //   <h2 class="title">${card.title}</h2>
+    //   <div class="text-wrapper>
+    //   <p class="description">${card.description}</p>
+    //   <a class="website" href="${card.websiteUrl}">${card.websiteUrl}</a>
+    //   </div>
+    // `;
 
     // <li>
     //   <img />

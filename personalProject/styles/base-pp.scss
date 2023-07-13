@@ -64,3 +64,49 @@
     }
   }
 }
+
+.p-home {
+  .info-card-section {
+    .card-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin: auto;
+      padding: 0;
+      max-width: 100rem;
+      .card-list-item {
+        list-style: none;
+        position: relative;
+        .title {
+          font-weight: 700;
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: black;
+          font-size: 2.4rem;
+        }
+        .text-wrapper {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgba(0, 0, 0, 0.9);
+          color: white;
+          opacity: 0;
+          transition: opacity 300ms;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
