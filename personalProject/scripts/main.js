@@ -30,9 +30,17 @@ function displayCards(data) {
     li.innerHTML = `
       <img src="${card.imageUrl}" width="300">
       <h2 class="title">${card.title}</h2>
+      <div class="text-wrapper>
       <p class="description">${card.description}</p>
       <a class="website" href="${card.websiteUrl}">${card.websiteUrl}</a>
+      </div>
     `;
+
+    // <li>
+    //   <img />
+    //   <h2></h2>
+    //   <div></div>
+    // </li>
 
     ul.appendChild(li);
   }
