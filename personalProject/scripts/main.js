@@ -8,7 +8,8 @@ async function getCards() {
     const response = await fetch(cardsURL);
     if (response.ok) {
       const data = await response.json();
-      displayCards(data.cards);
+      console.log(data);
+      displayCards(data);
     } else {
       throw Error(await response.text());
     }
@@ -17,17 +18,17 @@ async function getCards() {
   }
 }
 
-function displayCards(cards) {
+function displayCards(data) {
   const ul = document.createElement("ul");
   ul.setAttribute("id", "card-list");
   ul.classList.add("card-list");
   ul.classList.add("grid");
 
-  for (let card of cards) {
+  for (let card of data.cards) {
     const li = document.createElement("li");
     li.classList.add("card-list-item");
     li.innerHTML = `
-      <img src="${card.imageUrl}" width="50">
+      <img src="${card.imageUrl}" width="300">
       <h2 class="title">${card.title}</h2>
       <p class="description">${card.description}</p>
       <a class="website" href="${card.websiteUrl}">${card.websiteUrl}</a>
