@@ -43,13 +43,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
   margin: auto;
   padding: 0;
   max-width: 100rem; }
   .p-home .info-card-section .card-list .card-list-item {
     list-style: none;
-    position: relative; }
+    position: relative;
+    border: 1rem solid #0f0f0f;
+    padding: 1rem 2rem; }
     .p-home .info-card-section .card-list .card-list-item .title {
       font-weight: 700;
       position: absolute;
@@ -74,8 +76,10 @@
       background-color: rgba(0, 0, 0, 0.9);
       color: white;
       opacity: 0;
-      transition: opacity 300ms;
+      transition: opacity 800ms;
       text-align: center; }
+    .p-home .info-card-section .card-list .card-list-item .text-wrapper:hover {
+      opacity: 1; }
 
 html {
   font-size: 62.5%;

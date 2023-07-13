@@ -71,13 +71,16 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 2rem;
+      gap: 3rem;
       margin: auto;
       padding: 0;
       max-width: 100rem;
+
       .card-list-item {
         list-style: none;
         position: relative;
+        border: 1rem solid #0f0f0f;
+        padding: 1rem 2rem;
         .title {
           font-weight: 700;
           position: absolute;
@@ -103,8 +106,12 @@
           background-color: rgba(0, 0, 0, 0.9);
           color: white;
           opacity: 0;
-          transition: opacity 300ms;
+          transition: opacity 800ms;
           text-align: center;
+        }
+
+        .text-wrapper:hover {
+          opacity: 1;
         }
       }
     }
