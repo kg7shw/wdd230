@@ -24,7 +24,8 @@
     <script src="./scripts/fiveDayThreeHourWeatherApi.js" defer></script>
     <script src="./scripts/events.js" defer></script>
     <script src="./scripts/ads.js" defer></script>
-    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/ads.js" defer></script>
+    <script src="./scripts/visits.js" defer></script>
   </head>
   <body class="body" id="body">
     <header class="header" id="header">
@@ -69,7 +70,38 @@
     </header>
 
     <main class="dis-main">
+      <div>
+        <section class="visit-section">
+          <div>
+            <h2>Last Visit</h2>
+            <p id="page-visits" class="page-visits"></p>
+          </div>
+        </section>
+        <section class="population-section">
+          <div>
+            <h2>Population:</h2>
+            <p>174,302 people</p>
+          </div>
+        </section>
+        <section class="weather weather-section">
+          <h1 class="weather-section-title">Weather</h1>
+          <div class="weather-card weather">
+            <figure>
+              <img id="weather-icon" src="#" alt="weather icon" />
+              <figcaption
+                class="condition element weather-icon-1day"
+              ></figcaption>
+            </figure>
+            <p>
+              The Current Temperature in Dagupan, Pangasinan is:
+              <span class="temperature element" id="current-temp"></span>
+            </p>
+          </div>
+          <article class="five-day-weather-forcast"></article>
+        </section>
+      </div>
       <section class="events-section">
+        <h2>Events</h2>
         <article class="events-cards"></article>
       </section>
     </main>

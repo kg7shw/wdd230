@@ -76,4 +76,30 @@
       gap: 2rem;
     }
   }
+  .dis-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    .weather-section {
+      grid-column: 1/2;
+    }
+    .visit-section {
+      grid-column: 1/2;
+      padding: 0.5rem 2rem;
+    }
+    .population-section {
+      grid-column: 1/2;
+      padding: 0 2rem 1rem;
+    }
+    .events-section {
+      grid-row: 1/4;
+      grid-column: 2/3;
+      text-align: center;
+      img:hover {
+        // border: 3px dotted rgb(43, 42, 42);
+        border-radius: 100%;
+        transition: 200ms;
+      }
+    }
+  }
 }

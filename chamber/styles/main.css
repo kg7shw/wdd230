@@ -382,6 +382,60 @@
 .d-main .list li:nth-child(even) {
   background-color: #fff; }
 
+.dis-main .weather {
+  background-color: var(--primary-color);
+  padding: 1rem; }
+  .dis-main .weather .weather-section-title {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-align: center; }
+  .dis-main .weather .weather-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1.6rem 2.4rem; }
+    .dis-main .weather .weather-card figure {
+      margin: 0;
+      padding: 0 2rem; }
+    .dis-main .weather .weather-card img#weather-icon {
+      width: 60px;
+      height: 60px; }
+    .dis-main .weather .weather-card .condition {
+      margin: 0; }
+    .dis-main .weather .weather-card p {
+      margin: 0; }
+  .dis-main .weather article.five-day-weather-forcast ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 10rem;
+    list-style-type: none;
+    margin: auto;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    max-width: 75rem;
+    flex-wrap: wrap; }
+    .dis-main .weather article.five-day-weather-forcast ul li {
+      margin: 0;
+      text-align: center;
+      padding: 0; }
+      .dis-main .weather article.five-day-weather-forcast ul li h2 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding: 0 0 0.5rem 0;
+        margin: -15px 0 0; }
+      .dis-main .weather article.five-day-weather-forcast ul li img.weather {
+        width: 70%;
+        padding: 0;
+        margin: 0; }
+      .dis-main .weather article.five-day-weather-forcast ul li p.minValues,
+      .dis-main .weather article.five-day-weather-forcast ul li p.maxValues {
+        font-size: 1.2rem;
+        display: inline; }
+
 @media screen and (min-width: 744px) {
   .header {
     justify-content: space-around; }
@@ -412,7 +466,26 @@
       padding: 1rem;
       flex-basis: 50%; }
   d-main .grid {
-    gap: 2rem; } }
+    gap: 2rem; }
+  .dis-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem; }
+    .dis-main .weather-section {
+      grid-column: 1/2; }
+    .dis-main .visit-section {
+      grid-column: 1/2;
+      padding: 0.5rem 2rem; }
+    .dis-main .population-section {
+      grid-column: 1/2;
+      padding: 0 2rem 1rem; }
+    .dis-main .events-section {
+      grid-row: 1/4;
+      grid-column: 2/3;
+      text-align: center; }
+      .dis-main .events-section img:hover {
+        border-radius: 100%;
+        transition: 200ms; } }
 
 html {
   font-size: 62.5%;
