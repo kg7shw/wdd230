@@ -31,14 +31,14 @@
     {
       "title": "Trade School",
       "description": "Trade school is typically faster than college. You are specializing in a specific field and do not need to take any general education courses. You are able to learn what you need with lots of hands-on experience. Once done, you are well qualified to have a career in that specialty.",
-      "imageUrl": "https://example.com/trade-school-image.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1597058557804-95ac4ee36e66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
       "alt": "Image representing Trade School",
       "websiteUrl": "https://example.com/trade-school"
     },
     {
       "title": "Work Experience",
       "description": "You may choose to start working right out of high school. This gives you experience in the job you are working. You learn different skills at the job you work as well. Work experience can also help you decide if you want to do that job for the rest of your life or would like to change. If you choose to change, it will help you decide what type of career you want to have. Work experience also gives you good references that you could use in the future when trying to get a new job. Another perk of working is you earn money that can be saved up for whatever you would like to do with your life.",
-      "imageUrl": "https://example.com/work-experience-image.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
       "alt": "Image representing Work Experience",
       "websiteUrl": "https://example.com/work-experience"
     },
