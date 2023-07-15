@@ -114,18 +114,8 @@
       "lesson": "lesson 6",
       "links": [
         {
-          "url": "#",
-          "title": "N/A"
-        },
-
-        {
-          "url": "#",
-          "title": "N/A"
-        },
-
-        {
-          "url": "#",
-          "title": "N/A"
+          "url": "../chamber/index.html",
+          "title": "Chamber Final Homepage Improvements"
         }
       ]
     },
@@ -134,18 +124,8 @@
       "lesson": "lesson 7",
       "links": [
         {
-          "url": "#",
-          "title": "N/A"
-        },
-
-        {
-          "url": "#",
-          "title": "N/A"
-        },
-
-        {
-          "url": "#",
-          "title": "N/A"
+          "url": "../personalProject/index.html",
+          "title": "Options after graduation - Personal Project"
         }
       ]
     }
