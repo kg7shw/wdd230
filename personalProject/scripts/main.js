@@ -29,11 +29,9 @@ function displayCards(data) {
     li.classList.add("card-list-item");
     const img = document.createElement("img");
     img.setAttribute("src", card.imageUrl);
-    img.setAttribute("width", 300);
+    img.setAttribute("width", 525);
     li.classList.add("img");
     const h2 = document.createElement("h2");
-    h2.setAttribute("src", card.imageUrl);
-    h2.setAttribute("width", 300);
     h2.textContent = card.title;
     h2.classList.add("title");
     const textWrapper = document.createElement("div");
@@ -46,8 +44,8 @@ function displayCards(data) {
     a.classList.add("website");
     img.setAttribute("href", card.imageUrl);
 
-    li.appendChild(img);
     li.appendChild(h2);
+    li.appendChild(img);
     li.appendChild(textWrapper);
     textWrapper.appendChild(p);
     textWrapper.appendChild(a);

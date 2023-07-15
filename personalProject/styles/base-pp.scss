@@ -2,9 +2,7 @@
   .hero-img {
     position: relative;
     text-align: center;
-    img {
-      height: auto;
-    }
+
     .overlay {
       // background-color: #1f1d1d;
       // color: #fff;
@@ -28,12 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(9, 59, 79);
-    background: linear-gradient(
-      0deg,
-      rgba(9, 59, 79, 1) 10%,
-      rgba(9, 91, 121, 1) 56%
-    );
+    background-color: rgb(15, 15, 15);
     padding: 3rem 2rem;
 
     .profile-pic {
@@ -43,6 +36,67 @@
     .profile_name {
       padding-left: 2.4rem;
       color: #d1d1d1;
+    }
+  }
+}
+
+.p-home {
+  .info-card-section {
+    padding: 0 0 2rem;
+    h1 {
+      text-align: center;
+      margin: 7.8rem 0;
+      font-size: 4.8rem;
+      text-decoration: underline;
+      text-underline-offset: 1.2rem;
+    }
+    .card-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 3rem;
+      margin: auto;
+      padding: 0;
+      max-width: 120rem;
+
+      .card-list-item {
+        list-style: none;
+        position: relative;
+        min-width: 50rem;
+
+        .title {
+          text-align: center;
+          font-weight: 700;
+          font-size: 3rem;
+        }
+        .text-wrapper {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          flex-direction: column;
+          background-color: rgba(0, 0, 0, 0.9);
+          color: white;
+          opacity: 0;
+          transition: opacity 800ms;
+          text-align: center;
+          padding: 0 4rem;
+
+          a {
+            display: block;
+            word-break: break-all;
+          }
+        }
+
+        .text-wrapper:hover {
+          opacity: 1;
+        }
+      }
     }
   }
 }
@@ -61,61 +115,6 @@
       font-size: 1.2rem;
       font-weight: 300;
       margin-top: 0.6rem;
-    }
-  }
-}
-
-.p-home {
-  .info-card-section {
-    .card-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 3rem;
-      margin: auto;
-      padding: 0;
-      max-width: 100rem;
-
-      .card-list-item {
-        list-style: none;
-        position: relative;
-        border: 1rem solid #0f0f0f;
-        padding: 1rem 2rem;
-
-        .title {
-          font-weight: 700;
-          position: absolute;
-          left: 0;
-          top: 0;
-          height: 100%;
-          width: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          color: black;
-          font-size: 2.4rem;
-        }
-        .text-wrapper {
-          position: absolute;
-          left: 0;
-          top: 0;
-          height: 100%;
-          width: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
-          background-color: rgba(0, 0, 0, 0.9);
-          color: white;
-          opacity: 0;
-          transition: opacity 800ms;
-          text-align: center;
-        }
-
-        .text-wrapper:hover {
-          opacity: 1;
-        }
-      }
     }
   }
 }

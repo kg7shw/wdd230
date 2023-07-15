@@ -2,8 +2,6 @@
 .header .hero-img {
   position: relative;
   text-align: center; }
-  .header .hero-img img {
-    height: auto; }
   .header .hero-img .overlay {
     position: absolute;
     top: 5rem;
@@ -17,14 +15,59 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #093b4f;
-  background: linear-gradient(0deg, #093b4f 10%, #095b79 56%);
+  background-color: #0f0f0f;
   padding: 3rem 2rem; }
   .header .top-header .profile-pic {
     border-radius: 0.8rem; }
   .header .top-header .profile_name {
     padding-left: 2.4rem;
     color: #d1d1d1; }
+
+.p-home .info-card-section {
+  padding: 0 0 2rem; }
+  .p-home .info-card-section h1 {
+    text-align: center;
+    margin: 7.8rem 0;
+    font-size: 4.8rem;
+    text-decoration: underline;
+    text-underline-offset: 1.2rem; }
+  .p-home .info-card-section .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin: auto;
+    padding: 0;
+    max-width: 120rem; }
+    .p-home .info-card-section .card-list .card-list-item {
+      list-style: none;
+      position: relative;
+      min-width: 50rem; }
+      .p-home .info-card-section .card-list .card-list-item .title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 3rem; }
+      .p-home .info-card-section .card-list .card-list-item .text-wrapper {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+        opacity: 0;
+        transition: opacity 800ms;
+        text-align: center;
+        padding: 0 4rem; }
+        .p-home .info-card-section .card-list .card-list-item .text-wrapper a {
+          display: block;
+          word-break: break-all; }
+      .p-home .info-card-section .card-list .card-list-item .text-wrapper:hover {
+        opacity: 1; }
 
 .footer {
   background-color: #0f0f0f;
@@ -38,49 +81,6 @@
       font-size: 1.2rem;
       font-weight: 300;
       margin-top: 0.6rem; }
-
-.p-home .info-card-section .card-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 3rem;
-  margin: auto;
-  padding: 0;
-  max-width: 100rem; }
-  .p-home .info-card-section .card-list .card-list-item {
-    list-style: none;
-    position: relative;
-    border: 1rem solid #0f0f0f;
-    padding: 1rem 2rem; }
-    .p-home .info-card-section .card-list .card-list-item .title {
-      font-weight: 700;
-      position: absolute;
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: black;
-      font-size: 2.4rem; }
-    .p-home .info-card-section .card-list .card-list-item .text-wrapper {
-      position: absolute;
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      background-color: rgba(0, 0, 0, 0.9);
-      color: white;
-      opacity: 0;
-      transition: opacity 800ms;
-      text-align: center; }
-    .p-home .info-card-section .card-list .card-list-item .text-wrapper:hover {
-      opacity: 1; }
 
 html {
   font-size: 62.5%;
