@@ -2,44 +2,51 @@
   "cards": [
     {
       "title": "Serve a Mission",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum tellus eget sapien bibendum, at ultrices ipsum varius. Fusce id lacinia est. Nunc posuere tortor dolor, ac malesuada velit vestibulum vel. Sed condimentum, libero id sollicitudin mattis, neque turpis tincidunt ligula, sit amet posuere sem tortor in arcu.",
+      "description": "A mission is an opportunity to serve the Lord and learn about life in a unique way. You are given the opportunity to travel somewhere you have most likely never been. You get to experience different cultures (even if you are called to the states), how it is to live with someone besides your family, and experience new things as you serve those around you. You can learn more about who you are and want to become.",
       "imageUrl": "https://assets.churchofjesuschrist.org/a7/cb/a7cbe202312068da3cdaa58fcc748f6cf1d9a2b81069443/elder_missionaries_moving_furniture_truck.jpeg",
+      "alt": "Elder missionaries moving furniture truck",
       "websiteUrl": "https://www.churchofjesuschrist.org/callings/missionary?lang=eng"
     },
     {
       "title": "Join the Military",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum tellus eget sapien bibendum, at ultrices ipsum varius. Fusce id lacinia est. Nunc posuere tortor dolor, ac malesuada velit vestibulum vel. Sed condimentum, libero id sollicitudin mattis, neque turpis tincidunt ligula, sit amet posuere sem tortor in arcu.",
+      "description": "The military gives you the opportunity to serve our country. You go to boot camps, train, and learn how to protect our country. By serving in the military, you will also be given the opportunity to go to school if you choose. They will help pay for your schooling so you do not need to worry about that.",
       "imageUrl": "https://www.freepnglogos.com/uploads/military-logo-png/military-logo-united-states-military-bases-hawaii-hawaii-life-23.png",
+      "alt": "United States Military logo",
       "websiteUrl": "https://www.defense.gov/About/our-forces/"
     },
     {
       "title": "Attend College",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum tellus eget sapien bibendum, at ultrices ipsum varius. Fusce id lacinia est. Nunc posuere tortor dolor, ac malesuada velit vestibulum vel. Sed condimentum, libero id sollicitudin mattis, neque turpis tincidunt ligula, sit amet posuere sem tortor in arcu.",
+      "description": "College is the thing most people picture when you tell them you are continuing your education. College is a structured way to learn what you want. You are able to pick a field you want to study and spend 4+ years studying it. You are also given the opportunity, if you choose, to live away from home. This gives you opportunities to be responsible for yourself. It is, for most people, the first taste of becoming an adult. You learn how to take care of finances, pay rent, buy food, cook that food, schedule your time according to your needs, and interact with so many different types of people.",
       "imageUrl": "https://www.byui.edu/images/service-sites/map-banner-mobile.jpg",
+      "alt": "Map banner of Brigham Young University - Idaho",
       "websiteUrl": "https://www.byui.edu/"
     },
     {
       "title": "Take a Gap Year",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum tellus eget sapien bibendum, at ultrices ipsum varius. Fusce id lacinia est. Nunc posuere tortor dolor, ac malesuada velit vestibulum vel. Sed condimentum, libero id sollicitudin mattis, neque turpis tincidunt ligula, sit amet posuere sem tortor in arcu.",
+      "description": "A gap year is a year where you take time to figure out what you want to do. You explore many different things in the world. Some go on trips to different countries, go out to the woods, and so many other places. It gives you time to take a break from the structured learning you have been doing and experience new things. It can help you decide what you want to do with your life.",
       "imageUrl": "https://assets.churchofjesuschrist.org/be7934de1fa78bece2ab4d76cd843c28caef29ce",
+      "alt": "Gap year exploration image",
       "websiteUrl": "https://example.com/card4"
     },
     {
-      "title": "Card 5",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum tellus eget sapien bibendum, at ultrices ipsum varius. Fusce id lacinia est. Nunc posuere tortor dolor, ac malesuada velit vestibulum vel. Sed condimentum, libero id sollicitudin mattis, neque turpis tincidunt ligula, sit amet posuere sem tortor in arcu.",
-      "imageUrl": "https://picsum.photos/300/300/?blur=2",
-      "websiteUrl": "https://example.com/card5"
+      "title": "Trade School",
+      "description": "Trade school is typically faster than college. You are specializing in a specific field and do not need to take any general education courses. You are able to learn what you need with lots of hands-on experience. Once done, you are well qualified to have a career in that specialty.",
+      "imageUrl": "https://example.com/trade-school-image.jpg",
+      "alt": "Image representing Trade School",
+      "websiteUrl": "https://example.com/trade-school"
     },
     {
-      "title": "Card 6",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum tellus eget sapien bibendum, at ultrices ipsum varius. Fusce id lacinia est. Nunc posuere tortor dolor, ac malesuada velit vestibulum vel. Sed condimentum, libero id sollicitudin mattis, neque turpis tincidunt ligula, sit amet posuere sem tortor in arcu.",
-      "imageUrl": "https://picsum.photos/300/300/?blur=2",
-      "websiteUrl": "https://example.com/card6"
+      "title": "Work Experience",
+      "description": "You may choose to start working right out of high school. This gives you experience in the job you are working. You learn different skills at the job you work as well. Work experience can also help you decide if you want to do that job for the rest of your life or would like to change. If you choose to change, it will help you decide what type of career you want to have. Work experience also gives you good references that you could use in the future when trying to get a new job. Another perk of working is you earn money that can be saved up for whatever you would like to do with your life.",
+      "imageUrl": "https://example.com/work-experience-image.jpg",
+      "alt": "Image representing Work Experience",
+      "websiteUrl": "https://example.com/work-experience"
     },
     {
-      "title": "Attend a Coding BootCamp",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum tellus eget sapien bibendum, at ultrices ipsum varius. Fusce id lacinia est. Nunc posuere tortor dolor, ac malesuada velit vestibulum vel. Sed condimentum, libero id sollicitudin mattis, neque turpis tincidunt ligula, sit amet posuere sem tortor in arcu.",
+      "title": "Coding Bootcamp",
+      "description": "As a high school graduate considering your next steps, one option worth exploring is attending a coding bootcamp. A coding bootcamp offers an intensive and focused program specifically designed to equip you with the necessary skills to pursue a career in coding and technology. Unlike traditional college programs, bootcamps typically have a shorter duration, ranging from a few months to a year, allowing you to quickly gain practical knowledge and hands-on experience in coding. These programs often have a strong emphasis on real-world projects and industry-relevant skills, preparing you for the demands of the tech industry. With the growing demand for skilled programmers, completing a coding bootcamp can provide you with a fast track to entering the workforce and launching a successful career in the field of technology. It's important to thoroughly research and choose a reputable bootcamp that aligns with your goals and offers a curriculum that suits your interests. By investing your time and dedication in a coding bootcamp, you can open doors to exciting opportunities in the dynamic and ever-evolving world of technology.",
       "imageUrl": "https://d33wubrfki0l68.cloudfront.net/bbfa33a202e8612d49b6c1ed05c1fdd8e4001566/bbdd1/img/fcc_secondary_small.svg",
+      "alt": "FreeCodeCamp logo",
       "websiteUrl": "https://www.freecodecamp.org/"
     }
   ]
