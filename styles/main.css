@@ -252,3 +252,5 @@ html {
   html body {
     font-size: 1.6rem;
     margin: 0; }
+  html img {
+    max-width: 100%; }
